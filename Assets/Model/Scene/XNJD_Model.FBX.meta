@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 6a500dcdb64c9e3419f8a1cf5bac7804
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cylinder039
+    100002: FD_380A
+    100004: FD_Bridge
+    100006: FD_Bridge Prop
+    100008: FD_Button Green(dian yuan zhi shi)
+    100010: FD_Button Red(xi tong bao jing)
+    100012: FD_Button(bao jing ling)
+    100014: FD_Button(bao jing zhi shi )
+    100016: FD_Button(bei yong)
+    100018: FD_Button(fu dian yun xu)
+    100020: FD_Button(he zha zhi shi)
+    100022: FD_Button(ji ting)
+    100024: FD_Button(ji ting) 1
+    100026: FD_Button(jian shi ji suan ji)
+    100028: FD_Button(kai ting che zhi shi)
+    100030: FD_Button(kong zhi ji suan ji)
+    100032: FD_Button(kong zhi tai jia dian)
+    100034: FD_Button(qing bao jing)
+    100036: FD_Button(yao shi kai guan)
+    100038: FD_Button(zhuan pan jia dian)
+    100040: FD_cao zuo tai_1
+    100042: FD_cao zuo tai_2
+    100044: FD_chui feng kou
+    100046: FD_Computer
+    100048: FD_Computer Screen
+    100050: FD_Computer_Keyboard
+    100052: FD_CRH2
+    100054: FD_Dao liu_1
+    100056: FD_Dao liu_2
+    100058: FD_deng pian
+    100060: FD_diao deng
+    100062: FD_Door
+    100064: FD_Door 1
+    100066: FD_Fa ti_1
+    100068: FD_Fa ti_2
+    100070: FD_Fan
+    100072: FD_Glass
+    100074: FD_Hose
+    100076: FD_Iron
+    100078: FD_Iron_2
+    100080: FD_Key_1
+    100082: FD_Key_2
+    100084: FD_Key_3
+    100086: FD_Light
+    100088: FD_sao miao fa
+    100090: FD_Screen(cao zuo tai_2)
+    100092: FD_Switch_1
+    100094: FD_Switch_2
+    100096: FD_Table
+    100098: FD_Wen jian gui
+    100100: FD_Window  frame
+    100102: FD_Wire_1
+    100104: FD_Wire_2
+    100106: FD_Wire_3
+    100108: //RootNode
+    400000: Cylinder039
+    400002: FD_380A
+    400004: FD_Bridge
+    400006: FD_Bridge Prop
+    400008: FD_Button Green(dian yuan zhi shi)
+    400010: FD_Button Red(xi tong bao jing)
+    400012: FD_Button(bao jing ling)
+    400014: FD_Button(bao jing zhi shi )
+    400016: FD_Button(bei yong)
+    400018: FD_Button(fu dian yun xu)
+    400020: FD_Button(he zha zhi shi)
+    400022: FD_Button(ji ting)
+    400024: FD_Button(ji ting) 1
+    400026: FD_Button(jian shi ji suan ji)
+    400028: FD_Button(kai ting che zhi shi)
+    400030: FD_Button(kong zhi ji suan ji)
+    400032: FD_Button(kong zhi tai jia dian)
+    400034: FD_Button(qing bao jing)
+    400036: FD_Button(yao shi kai guan)
+    400038: FD_Button(zhuan pan jia dian)
+    400040: FD_cao zuo tai_1
+    400042: FD_cao zuo tai_2
+    400044: FD_chui feng kou
+    400046: FD_Computer
+    400048: FD_Computer Screen
+    400050: FD_Computer_Keyboard
+    400052: FD_CRH2
+    400054: FD_Dao liu_1
+    400056: FD_Dao liu_2
+    400058: FD_deng pian
+    400060: FD_diao deng
+    400062: FD_Door
+    400064: FD_Door 1
+    400066: FD_Fa ti_1
+    400068: FD_Fa ti_2
+    400070: FD_Fan
+    400072: FD_Glass
+    400074: FD_Hose
+    400076: FD_Iron
+    400078: FD_Iron_2
+    400080: FD_Key_1
+    400082: FD_Key_2
+    400084: FD_Key_3
+    400086: FD_Light
+    400088: FD_sao miao fa
+    400090: FD_Screen(cao zuo tai_2)
+    400092: FD_Switch_1
+    400094: FD_Switch_2
+    400096: FD_Table
+    400098: FD_Wen jian gui
+    400100: FD_Window  frame
+    400102: FD_Wire_1
+    400104: FD_Wire_2
+    400106: FD_Wire_3
+    400108: //RootNode
+    2100000: fd_chui feng kou
+    2100002: Iron
+    2100004: dao liu_1
+    2100006: Board
+    2100008: dao liu_2
+    2100010: 'Material #66'
+    2100012: 'Material #62'
+    2100014: 'Material #58'
+    2100016: 'Material #57'
+    2100018: 'Material #56'
+    2100020: 'Material #53'
+    2100022: Window frame
+    2100024: Glass
+    2100026: kong zhi tai
+    2100028: Button_Silver
+    2100030: Words_Black_1
+    2100032: Words_White
+    2100034: 12 - Default
+    2100036: 11 - Default
+    2100038: Button_Black
+    2100040: Button_Green
+    2100042: Button_Red
+    2100044: Screen
+    2100046: Button_White
+    2100048: 01 - Default
+    2100050: 'Material #21'
+    2100052: 'Material #268'
+    2100054: PlasticGlade01
+    2100056: ChromsFORled
+    2100058: LedIlumin
+    2100060: MetelLews01
+    2100062: Mat3d66-493846-1-504
+    2100064: Mat3d66-493846-92-182
+    2100066: Mat3d66-493846-74-923
+    2100068: Mat3d66-493846-13-410
+    2100070: Mat3d66-493846-6-810
+    2100072: Mat3d66-493846-4-136
+    2100074: Mat3d66-493846-60-886
+    2100076: Mat3d66-493846-81-54
+    2100078: Mat3d66-493846-71-909
+    2100080: Mat3d66-493846-68-454
+    2100082: Mat3d66-493846-59-78
+    2100084: Mat3d66-493846-55-696
+    2100086: Mat3d66-493846-61-932
+    2100088: Mat3d66-493846-66-218
+    2100090: Mat3d66-493846-67-251
+    2100092: Mat3d66-493846-77-587
+    2100094: Mat3d66-493846-76-893
+    2100096: Mat3d66-493846-51-780
+    2100098: Mat3d66-493846-56-90
+    2100100: Mat3d66-493846-57-125
+    2100102: Mat3d66-493846-50-721
+    2100104: Mat3d66-493846-49-672
+    2100106: Mat3d66-493846-48-508
+    2100108: Mat3d66-493846-47-451
+    2100110: Mat3d66-493846-46-271
+    2100112: Mat3d66-493846-45-762
+    2100114: Mat3d66-493846-44-325
+    2100116: Mat3d66-493846-43-13
+    2100118: Mat3d66-493846-42-793
+    2100120: Mat3d66-493846-41-336
+    2100122: Mat3d66-493846-96-135
+    2100124: Mat3d66-493846-54-427
+    2100126: Mat3d66-493846-53-465
+    2100128: Mat3d66-493846-97-457
+    2100130: Mat3d66-493846-88-840
+    2100132: Mat3d66-493846-75-823
+    2100134: Mat3d66-493846-33-191
+    2100136: Mat3d66-493846-26-427
+    2100138: Mat3d66-493846-9-69
+    2100140: Mat3d66-493846-65-373
+    2100142: Mat3d66-493846-83-866
+    2100144: Mat3d66-493846-31-48
+    2100146: Mat3d66-493846-36-832
+    2100148: Mat3d66-493846-86-803
+    2100150: Mat3d66-493846-72-741
+    2100152: Mat3d66-493846-84-150
+    2100154: Mat3d66-493846-29-175
+    2100156: Mat3d66-493846-34-607
+    2100158: Mat3d66-493846-28-189
+    2100160: Mat3d66-493846-32-423
+    2100162: Mat3d66-493846-35-111
+    2100164: Mat3d66-493846-30-429
+    2100166: Mat3d66-493846-27-472
+    2100168: Mat3d66-493846-25-543
+    2100170: Mat3d66-493846-12-901
+    2100172: Mat3d66-493846-63-961
+    2100174: Mat3d66-493846-70-846
+    2100176: Mat3d66-493846-52-308
+    2100178: Mat3d66-493846-82-981
+    2100180: Mat3d66-493846-5-403
+    2100182: Mat3d66-493846-37-608
+    2100184: Mat3d66-493846-40-852
+    2100186: Mat3d66-493846-7-776
+    2100188: Mat3d66-493846-39-512
+    2100190: Mat3d66-493846-95-373
+    2100192: Mat3d66-493846-11-264
+    2100194: Mat3d66-493846-93-644
+    2100196: Mat3d66-493846-3-451
+    2100198: Mat3d66-493846-20-773
+    2100200: Mat3d66-493846-38-442
+    2100202: Mat3d66-493846-62-280
+    2100204: Mat3d66-493846-64-377
+    2100206: Mat3d66-493846-8-470
+    2100208: Mat3d66-493846-87-702
+    2100210: Mat3d66-493846-85-679
+    2100212: Mat3d66-493846-80-31
+    2100214: Mat3d66-493846-22-153
+    2100216: Mat3d66-493846-21-428
+    2100218: Mat3d66-493846-2-971
+    2100220: Mat3d66-493846-19-805
+    2100222: Mat3d66-493846-94-853
+    2100224: Mat3d66-493846-15-432
+    2100226: Mat3d66-493846-16-408
+    2100228: Mat3d66-493846-14-932
+    2100230: Mat3d66-493846-23-932
+    2100232: Mat3d66-493846-58-100
+    2100234: Mat3d66-493846-79-80
+    2100236: Mat3d66-493846-10-9
+    2100238: Mat3d66-493846-78-957
+    2100240: Mat3d66-493846-89-627
+    2100242: Mat3d66-493846-100-284
+    2100244: Mat3d66-493846-17-275
+    2100246: Mat3d66-493846-99-748
+    2100248: Mat3d66-493846-98-540
+    2100250: Mat3d66-493846-24-466
+    2100252: Mat3d66-493846-18-262
+    2100254: Mat3d66-493846-69-223
+    2100256: Mat3d66-493846-73-258
+    2100258: Mat3d66-493846-90-799
+    2100260: Mat3d66-493846-91-246
+    2100262: 18 - Default
+    2100264: 19 - Default
+    2100266: Button_Yellow(tou ming)
+    2100268: 18 - Default11
+    2100270: Button_Red(tou ming)
+    2100272: Button_Green(tou ming)
+    2100274: key_2
+    2100276: key_1
+    2100278: wen jian gui_4
+    2100280: wen jian gui_5
+    2100282: wen jian gui_6
+    2100284: wen jian gui_1
+    2100286: wen jian gui_3
+    2100288: wen jina gui_2
+    2100290: diao deng_2
+    2100292: diao deng_1
+    2100294: Mat3d66-487798-2-207
+    2100296: 09 - Default
+    2100298: 10 - Default
+    2100300: door_1
+    2100302: door_2
+    2100304: door_3
+    2100306: Table_1
+    2100308: Table_2
+    2100310: Table_3
+    2100312: Table_4
+    2100314: Mat3d66-727982-10-5715
+    2100316: Mat3d66-727982-6-1841
+    2100318: Mat3d66-727982-1-4449
+    2100320: Mat3d66-727982-11-4575
+    2100322: Mat3d66-727982-9-7607
+    2100324: Mat3d66-727982-4-6250
+    2100326: Mat3d66-727982-12-8011
+    2100328: Mat3d66-727982-2-6229
+    2100330: Mat3d66-727982-8-9878
+    2100332: Mat3d66-727982-5-837
+    2100334: Mat3d66-727982-13-9955
+    2100336: Mat3d66-727982-3-719
+    2100338: Mat3d66-727982-7-2740
+    2100340: Mat3d66-727982-15-3607
+    2100342: Mat3d66-727982-14-5397
+    2100344: 1gg
+    2100346: Standard_19t
+    2100348: ck
+    2100350: 'vray Material #352399479'
+    2100352: vray xzzz
+    2100354: vray VAC-PUEN
+    2100356: vray pp
+    2100358: vray ddd
+    2100360: vray heixiav
+    2100362: FD_sao miao fa
+    2100364: Sao miao fa_Zhu ti
+    2100366: Word_Black_2
+    2100368: Sao miao fa_White
+    2100370: Sao miao fa_Black
+    2100372: Sao miao fa_Gold
+    2100374: Sao miao fa_Screw
+    2100376: FD_Line
+    2100378: Fa ti_lv
+    2100380: 13 - Default
+    2100382: Fa ti_Gold1
+    2100384: Fa ti_Gold2
+    2100386: 16 - Default
+    2100388: Bridge  handrail
+    2100390: Bridge_Orbit
+    2100392: Bridge pier
+    2100394: Light
+    2300000: Cylinder039
+    2300002: FD_380A
+    2300004: FD_Bridge
+    2300006: FD_Bridge Prop
+    2300008: FD_Button Green(dian yuan zhi shi)
+    2300010: FD_Button Red(xi tong bao jing)
+    2300012: FD_Button(bao jing ling)
+    2300014: FD_Button(bao jing zhi shi )
+    2300016: FD_Button(bei yong)
+    2300018: FD_Button(fu dian yun xu)
+    2300020: FD_Button(he zha zhi shi)
+    2300022: FD_Button(ji ting)
+    2300024: FD_Button(ji ting) 1
+    2300026: FD_Button(jian shi ji suan ji)
+    2300028: FD_Button(kai ting che zhi shi)
+    2300030: FD_Button(kong zhi ji suan ji)
+    2300032: FD_Button(kong zhi tai jia dian)
+    2300034: FD_Button(qing bao jing)
+    2300036: FD_Button(yao shi kai guan)
+    2300038: FD_Button(zhuan pan jia dian)
+    2300040: FD_cao zuo tai_1
+    2300042: FD_cao zuo tai_2
+    2300044: FD_chui feng kou
+    2300046: FD_Computer
+    2300048: FD_Computer Screen
+    2300050: FD_Computer_Keyboard
+    2300052: FD_CRH2
+    2300054: FD_Dao liu_1
+    2300056: FD_Dao liu_2
+    2300058: FD_deng pian
+    2300060: FD_diao deng
+    2300062: FD_Door
+    2300064: FD_Door 1
+    2300066: FD_Fa ti_1
+    2300068: FD_Fa ti_2
+    2300070: FD_Fan
+    2300072: FD_Glass
+    2300074: FD_Hose
+    2300076: FD_Iron
+    2300078: FD_Iron_2
+    2300080: FD_Key_1
+    2300082: FD_Key_2
+    2300084: FD_Key_3
+    2300086: FD_Light
+    2300088: FD_sao miao fa
+    2300090: FD_Screen(cao zuo tai_2)
+    2300092: FD_Switch_1
+    2300094: FD_Switch_2
+    2300096: FD_Table
+    2300098: FD_Wen jian gui
+    2300100: FD_Window  frame
+    2300102: FD_Wire_1
+    2300104: FD_Wire_2
+    2300106: FD_Wire_3
+    3300000: Cylinder039
+    3300002: FD_380A
+    3300004: FD_Bridge
+    3300006: FD_Bridge Prop
+    3300008: FD_Button Green(dian yuan zhi shi)
+    3300010: FD_Button Red(xi tong bao jing)
+    3300012: FD_Button(bao jing ling)
+    3300014: FD_Button(bao jing zhi shi )
+    3300016: FD_Button(bei yong)
+    3300018: FD_Button(fu dian yun xu)
+    3300020: FD_Button(he zha zhi shi)
+    3300022: FD_Button(ji ting)
+    3300024: FD_Button(ji ting) 1
+    3300026: FD_Button(jian shi ji suan ji)
+    3300028: FD_Button(kai ting che zhi shi)
+    3300030: FD_Button(kong zhi ji suan ji)
+    3300032: FD_Button(kong zhi tai jia dian)
+    3300034: FD_Button(qing bao jing)
+    3300036: FD_Button(yao shi kai guan)
+    3300038: FD_Button(zhuan pan jia dian)
+    3300040: FD_cao zuo tai_1
+    3300042: FD_cao zuo tai_2
+    3300044: FD_chui feng kou
+    3300046: FD_Computer
+    3300048: FD_Computer Screen
+    3300050: FD_Computer_Keyboard
+    3300052: FD_CRH2
+    3300054: FD_Dao liu_1
+    3300056: FD_Dao liu_2
+    3300058: FD_deng pian
+    3300060: FD_diao deng
+    3300062: FD_Door
+    3300064: FD_Door 1
+    3300066: FD_Fa ti_1
+    3300068: FD_Fa ti_2
+    3300070: FD_Fan
+    3300072: FD_Glass
+    3300074: FD_Hose
+    3300076: FD_Iron
+    3300078: FD_Iron_2
+    3300080: FD_Key_1
+    3300082: FD_Key_2
+    3300084: FD_Key_3
+    3300086: FD_Light
+    3300088: FD_sao miao fa
+    3300090: FD_Screen(cao zuo tai_2)
+    3300092: FD_Switch_1
+    3300094: FD_Switch_2
+    3300096: FD_Table
+    3300098: FD_Wen jian gui
+    3300100: FD_Window  frame
+    3300102: FD_Wire_1
+    3300104: FD_Wire_2
+    3300106: FD_Wire_3
+    4300000: FD_chui feng kou
+    4300002: FD_Fan
+    4300004: FD_Dao liu_1
+    4300006: FD_Window  frame
+    4300008: FD_Glass
+    4300010: FD_cao zuo tai_2
+    4300012: FD_Button Green(dian yuan zhi shi)
+    4300014: FD_Button Red(xi tong bao jing)
+    4300016: FD_Screen(cao zuo tai_2)
+    4300018: FD_Button(yao shi kai guan)
+    4300020: FD_Button(ji ting)
+    4300022: FD_Computer
+    4300024: FD_Computer Screen
+    4300026: FD_Computer_Keyboard
+    4300028: FD_cao zuo tai_1
+    4300030: FD_Button(bei yong)
+    4300032: FD_Button(fu dian yun xu)
+    4300034: FD_Button(ji ting)
+    4300036: FD_Button(jian shi ji suan ji)
+    4300038: FD_Button(kong zhi ji suan ji)
+    4300040: FD_Button(kong zhi tai jia dian)
+    4300042: FD_Button(qing bao jing)
+    4300044: FD_Button(zhuan pan jia dian)
+    4300046: Cylinder039
+    4300048: FD_Button(bao jing ling)
+    4300050: FD_Button(bao jing zhi shi )
+    4300052: FD_Button(he zha zhi shi)
+    4300054: FD_Button(kai ting che zhi shi)
+    4300056: FD_Key_3
+    4300058: FD_Key_1
+    4300060: FD_Key_2
+    4300062: FD_Wen jian gui
+    4300064: FD_diao deng
+    4300066: FD_deng pian
+    4300068: FD_Iron
+    4300070: FD_Iron_2
+    4300072: FD_Door
+    4300074: FD_Door
+    4300076: FD_Dao liu_2
+    4300078: FD_Table
+    4300080: FD_380A
+    4300082: FD_CRH2
+    4300084: FD_sao miao fa
+    4300086: FD_Switch_1
+    4300088: FD_Switch_2
+    4300090: FD_Wire_3
+    4300092: FD_Wire_1
+    4300094: FD_Wire_2
+    4300096: FD_Fa ti_1
+    4300098: FD_Fa ti_2
+    4300100: FD_Hose
+    4300102: FD_Bridge
+    4300104: FD_Bridge Prop
+    4300106: FD_Light
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
