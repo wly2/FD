@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 723834fa2ec801549aaa8a67fd2f92bd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box039
+    100002: Box040
+    100004: Cylinder039
+    100006: Dong che_Gai(380A)
+    100008: Dong che_Gai(CRH2)
+    100010: Dongche_Lianjie
+    100012: Dongche_Lianjie006
+    100014: Dongche_Lianjie007
+    100016: Dongche_Lianjie008
+    100018: Dongche_Lianjie009
+    100020: Dongche_Lianjie010
+    100022: Dongche_Lianjie011
+    100024: Dongche_Lianjie012
+    100026: Dongche_Lianjie013
+    100028: Dongche_Lianjie014
+    100030: FD_380A
+    100032: FD_Bridge
+    100034: FD_Bridge Prop001
+    100036: FD_Button Green(dian yuan zhi shi)
+    100038: FD_Button Red(xi tong bao jing)
+    100040: FD_Button(bao jing ling)
+    100042: FD_Button(bao jing zhi shi )
+    100044: FD_Button(bei yong)
+    100046: FD_Button(fu dian yun xu)
+    100048: FD_Button(he zha zhi shi)
+    100050: FD_Button(ji ting)
+    100052: FD_Button(ji ting) 1
+    100054: FD_Button(jian shi ji suan ji)
+    100056: FD_Button(kai ting che zhi shi)
+    100058: FD_Button(kong zhi ji suan ji)
+    100060: FD_Button(kong zhi tai jia dian)
+    100062: FD_Button(qing bao jing)
+    100064: FD_Button(zhuan pan jia dian)
+    100066: FD_cao zuo tai_1
+    100068: FD_cao zuo tai_2
+    100070: FD_Ce ya mo kuai xian
+    100072: FD_CRH2
+    100074: //RootNode
+    100076: FD_Fa ti_004
+    100078: FD_Fa ti_005
+    100080: FD_Hose001
+    100082: FD_Hose002
+    100084: FD_Key
+    100086: FD_Key_1
+    100088: FD_Key_2
+    100090: FD_Key_3
+    100092: FD_Pulley
+    100094: FD_Pulley001
+    100096: FD_sao miao fa
+    100098: FD_Screen(cao zuo tai_2)
+    100100: FD_Switch_1
+    100102: FD_Switch_2
+    100104: FD_Wang xian
+    100106: Lianjie_Screw
+    100108: Lianjie_Screw001
+    100110: Lianjie_Screw002
+    100112: Lianjie_Screw003
+    100114: Lianjie_Screw004
+    100116: Lianjie_Screw005
+    100118: Lianjie_Screw006
+    100120: Lianjie_Screw007
+    100122: Lianjie_Screw008
+    100124: Lianjie_Screw009
+    100126: Line001
+    100128: Line002
+    100130: Pulley_Crawler
+    100132: Pulley_Crawler001
+    400000: Box039
+    400002: Box040
+    400004: Cylinder039
+    400006: Dong che_Gai(380A)
+    400008: Dong che_Gai(CRH2)
+    400010: Dongche_Lianjie
+    400012: Dongche_Lianjie006
+    400014: Dongche_Lianjie007
+    400016: Dongche_Lianjie008
+    400018: Dongche_Lianjie009
+    400020: Dongche_Lianjie010
+    400022: Dongche_Lianjie011
+    400024: Dongche_Lianjie012
+    400026: Dongche_Lianjie013
+    400028: Dongche_Lianjie014
+    400030: FD_380A
+    400032: FD_Bridge
+    400034: FD_Bridge Prop001
+    400036: FD_Button Green(dian yuan zhi shi)
+    400038: FD_Button Red(xi tong bao jing)
+    400040: FD_Button(bao jing ling)
+    400042: FD_Button(bao jing zhi shi )
+    400044: FD_Button(bei yong)
+    400046: FD_Button(fu dian yun xu)
+    400048: FD_Button(he zha zhi shi)
+    400050: FD_Button(ji ting)
+    400052: FD_Button(ji ting) 1
+    400054: FD_Button(jian shi ji suan ji)
+    400056: FD_Button(kai ting che zhi shi)
+    400058: FD_Button(kong zhi ji suan ji)
+    400060: FD_Button(kong zhi tai jia dian)
+    400062: FD_Button(qing bao jing)
+    400064: FD_Button(zhuan pan jia dian)
+    400066: FD_cao zuo tai_1
+    400068: FD_cao zuo tai_2
+    400070: FD_Ce ya mo kuai xian
+    400072: FD_CRH2
+    400074: //RootNode
+    400076: FD_Fa ti_004
+    400078: FD_Fa ti_005
+    400080: FD_Hose001
+    400082: FD_Hose002
+    400084: FD_Key
+    400086: FD_Key_1
+    400088: FD_Key_2
+    400090: FD_Key_3
+    400092: FD_Pulley
+    400094: FD_Pulley001
+    400096: FD_sao miao fa
+    400098: FD_Screen(cao zuo tai_2)
+    400100: FD_Switch_1
+    400102: FD_Switch_2
+    400104: FD_Wang xian
+    400106: Lianjie_Screw
+    400108: Lianjie_Screw001
+    400110: Lianjie_Screw002
+    400112: Lianjie_Screw003
+    400114: Lianjie_Screw004
+    400116: Lianjie_Screw005
+    400118: Lianjie_Screw006
+    400120: Lianjie_Screw007
+    400122: Lianjie_Screw008
+    400124: Lianjie_Screw009
+    400126: Line001
+    400128: Line002
+    400130: Pulley_Crawler
+    400132: Pulley_Crawler001
+    2100000: kong zhi tai
+    2100002: Button_Silver
+    2100004: Words_Black_1
+    2100006: Words_White
+    2100008: 12 - Default
+    2100010: 11 - Default
+    2100012: Button_Black
+    2100014: 'Material #66'
+    2100016: 'Material #62'
+    2100018: 'Material #58'
+    2100020: 'Material #57'
+    2100022: 'Material #56'
+    2100024: 'Material #53'
+    2100026: Button_Green
+    2100028: Button_Red
+    2100030: Screen
+    2100032: Button_White
+    2100034: 18 - Default
+    2100036: 19 - Default
+    2100038: Glass
+    2100040: Button_Yellow(tou ming)
+    2100042: 18 - Default11
+    2100044: Button_Red(tou ming)
+    2100046: Button_Green(tou ming)
+    2100048: key_2
+    2100050: key_1
+    2100052: FD_sao miao fa
+    2100054: Sao miao fa_Zhu ti
+    2100056: Word_Black_2
+    2100058: Sao miao fa_White
+    2100060: Sao miao fa_Black
+    2100062: Sao miao fa_Gold
+    2100064: Sao miao fa_Screw
+    2100066: Mat3d66-727982-6-1841
+    2100068: Mat3d66-727982-11-4575
+    2100070: Mat3d66-727982-12-8011
+    2100072: Mat3d66-727982-7-2740
+    2100074: Mat3d66-727982-1-4449
+    2100076: Mat3d66-727982-13-9955
+    2100078: Mat3d66-727982-15-3607
+    2100080: Mat3d66-727982-9-7607
+    2100082: Mat3d66-727982-3-719
+    2100084: Mat3d66-727982-14-5397
+    2100086: Mat3d66-727982-8-9878
+    2100088: Mat3d66-727982-2-6229
+    2100090: Mat3d66-727982-5-837
+    2100092: Mat3d66-727982-10-5715
+    2100094: Mat3d66-727982-4-6250
+    2100096: Bridge  handrail
+    2100098: 07 - Default
+    2100100: 1gg
+    2100102: Standard_19t
+    2100104: ck
+    2100106: 'vray Material #352399479'
+    2100108: vray xzzz
+    2100110: vray VAC-PUEN
+    2100112: vray pp
+    2100114: vray ddd
+    2100116: vray heixiav
+    2100118: 05 - Default
+    2100120: FD_xing dong dai_
+    2100122: Bridge pier
+    2100124: Fa ti_lv
+    2100126: 13 - Default
+    2100128: Fa ti_Gold1
+    2100130: Fa ti_Gold2
+    2100132: 16 - Default
+    2100134: FD_Line
+    2100136: FD_Wang xian_1
+    2100138: FD_Wang xian_2
+    2100140: FD_Wang xian_3
+    2100142: 3d66.com_858400_01
+    2100144: No Name
+    2300000: Box039
+    2300002: Box040
+    2300004: Cylinder039
+    2300006: Dong che_Gai(380A)
+    2300008: Dong che_Gai(CRH2)
+    2300010: Dongche_Lianjie
+    2300012: Dongche_Lianjie006
+    2300014: Dongche_Lianjie007
+    2300016: Dongche_Lianjie008
+    2300018: Dongche_Lianjie009
+    2300020: Dongche_Lianjie010
+    2300022: Dongche_Lianjie011
+    2300024: Dongche_Lianjie012
+    2300026: Dongche_Lianjie013
+    2300028: Dongche_Lianjie014
+    2300030: FD_380A
+    2300032: FD_Bridge
+    2300034: FD_Bridge Prop001
+    2300036: FD_Button Green(dian yuan zhi shi)
+    2300038: FD_Button Red(xi tong bao jing)
+    2300040: FD_Button(bao jing ling)
+    2300042: FD_Button(bao jing zhi shi )
+    2300044: FD_Button(bei yong)
+    2300046: FD_Button(fu dian yun xu)
+    2300048: FD_Button(he zha zhi shi)
+    2300050: FD_Button(ji ting)
+    2300052: FD_Button(ji ting) 1
+    2300054: FD_Button(jian shi ji suan ji)
+    2300056: FD_Button(kai ting che zhi shi)
+    2300058: FD_Button(kong zhi ji suan ji)
+    2300060: FD_Button(kong zhi tai jia dian)
+    2300062: FD_Button(qing bao jing)
+    2300064: FD_Button(zhuan pan jia dian)
+    2300066: FD_cao zuo tai_1
+    2300068: FD_cao zuo tai_2
+    2300070: FD_Ce ya mo kuai xian
+    2300072: FD_CRH2
+    2300074: FD_Fa ti_004
+    2300076: FD_Fa ti_005
+    2300078: FD_Hose001
+    2300080: FD_Hose002
+    2300082: FD_Key
+    2300084: FD_Key_1
+    2300086: FD_Key_2
+    2300088: FD_Key_3
+    2300090: FD_Pulley
+    2300092: FD_Pulley001
+    2300094: FD_sao miao fa
+    2300096: FD_Screen(cao zuo tai_2)
+    2300098: FD_Switch_1
+    2300100: FD_Switch_2
+    2300102: FD_Wang xian
+    2300104: Lianjie_Screw
+    2300106: Lianjie_Screw001
+    2300108: Lianjie_Screw002
+    2300110: Lianjie_Screw003
+    2300112: Lianjie_Screw004
+    2300114: Lianjie_Screw005
+    2300116: Lianjie_Screw006
+    2300118: Lianjie_Screw007
+    2300120: Lianjie_Screw008
+    2300122: Lianjie_Screw009
+    2300124: Line001
+    2300126: Line002
+    2300128: Pulley_Crawler
+    2300130: Pulley_Crawler001
+    3300000: Box039
+    3300002: Box040
+    3300004: Cylinder039
+    3300006: Dong che_Gai(380A)
+    3300008: Dong che_Gai(CRH2)
+    3300010: Dongche_Lianjie
+    3300012: Dongche_Lianjie006
+    3300014: Dongche_Lianjie007
+    3300016: Dongche_Lianjie008
+    3300018: Dongche_Lianjie009
+    3300020: Dongche_Lianjie010
+    3300022: Dongche_Lianjie011
+    3300024: Dongche_Lianjie012
+    3300026: Dongche_Lianjie013
+    3300028: Dongche_Lianjie014
+    3300030: FD_380A
+    3300032: FD_Bridge
+    3300034: FD_Bridge Prop001
+    3300036: FD_Button Green(dian yuan zhi shi)
+    3300038: FD_Button Red(xi tong bao jing)
+    3300040: FD_Button(bao jing ling)
+    3300042: FD_Button(bao jing zhi shi )
+    3300044: FD_Button(bei yong)
+    3300046: FD_Button(fu dian yun xu)
+    3300048: FD_Button(he zha zhi shi)
+    3300050: FD_Button(ji ting)
+    3300052: FD_Button(ji ting) 1
+    3300054: FD_Button(jian shi ji suan ji)
+    3300056: FD_Button(kai ting che zhi shi)
+    3300058: FD_Button(kong zhi ji suan ji)
+    3300060: FD_Button(kong zhi tai jia dian)
+    3300062: FD_Button(qing bao jing)
+    3300064: FD_Button(zhuan pan jia dian)
+    3300066: FD_cao zuo tai_1
+    3300068: FD_cao zuo tai_2
+    3300070: FD_Ce ya mo kuai xian
+    3300072: FD_CRH2
+    3300074: FD_Fa ti_004
+    3300076: FD_Fa ti_005
+    3300078: FD_Hose001
+    3300080: FD_Hose002
+    3300082: FD_Key
+    3300084: FD_Key_1
+    3300086: FD_Key_2
+    3300088: FD_Key_3
+    3300090: FD_Pulley
+    3300092: FD_Pulley001
+    3300094: FD_sao miao fa
+    3300096: FD_Screen(cao zuo tai_2)
+    3300098: FD_Switch_1
+    3300100: FD_Switch_2
+    3300102: FD_Wang xian
+    3300104: Lianjie_Screw
+    3300106: Lianjie_Screw001
+    3300108: Lianjie_Screw002
+    3300110: Lianjie_Screw003
+    3300112: Lianjie_Screw004
+    3300114: Lianjie_Screw005
+    3300116: Lianjie_Screw006
+    3300118: Lianjie_Screw007
+    3300120: Lianjie_Screw008
+    3300122: Lianjie_Screw009
+    3300124: Line001
+    3300126: Line002
+    3300128: Pulley_Crawler
+    3300130: Pulley_Crawler001
+    4300000: FD_cao zuo tai_2
+    4300002: FD_Button Green(dian yuan zhi shi)
+    4300004: FD_Button Red(xi tong bao jing)
+    4300006: FD_Screen(cao zuo tai_2)
+    4300008: FD_Button(ji ting)
+    4300010: FD_cao zuo tai_1
+    4300012: FD_Button(bei yong)
+    4300014: FD_Button(fu dian yun xu)
+    4300016: FD_Button(ji ting)
+    4300018: FD_Button(jian shi ji suan ji)
+    4300020: FD_Button(kong zhi ji suan ji)
+    4300022: FD_Button(kong zhi tai jia dian)
+    4300024: FD_Button(qing bao jing)
+    4300026: FD_Button(zhuan pan jia dian)
+    4300028: Cylinder039
+    4300030: FD_Button(bao jing ling)
+    4300032: FD_Button(bao jing zhi shi )
+    4300034: FD_Button(he zha zhi shi)
+    4300036: FD_Button(kai ting che zhi shi)
+    4300038: FD_Key_3
+    4300040: FD_Key_1
+    4300042: FD_Key_2
+    4300044: FD_sao miao fa
+    4300046: FD_Switch_1
+    4300048: FD_Switch_2
+    4300050: FD_380A
+    4300052: FD_Bridge
+    4300054: FD_CRH2
+    4300056: FD_Key
+    4300058: FD_Pulley
+    4300060: Pulley_Crawler
+    4300062: Dong che_Gai(CRH2)
+    4300064: Dongche_Lianjie
+    4300066: Lianjie_Screw
+    4300068: Dongche_Lianjie006
+    4300070: Lianjie_Screw001
+    4300072: Dongche_Lianjie007
+    4300074: Lianjie_Screw002
+    4300076: Dongche_Lianjie008
+    4300078: Lianjie_Screw003
+    4300080: Dongche_Lianjie009
+    4300082: Lianjie_Screw004
+    4300084: FD_Bridge Prop001
+    4300086: FD_Fa ti_004
+    4300088: FD_Hose001
+    4300090: Line001
+    4300092: FD_Wang xian
+    4300094: FD_Ce ya mo kuai xian
+    4300096: FD_Pulley001
+    4300098: Pulley_Crawler001
+    4300100: Box039
+    4300102: Dong che_Gai(380A)
+    4300104: Dongche_Lianjie010
+    4300106: Lianjie_Screw007
+    4300108: Dongche_Lianjie011
+    4300110: Lianjie_Screw008
+    4300112: Dongche_Lianjie012
+    4300114: Lianjie_Screw005
+    4300116: Dongche_Lianjie013
+    4300118: Lianjie_Screw009
+    4300120: Dongche_Lianjie014
+    4300122: Lianjie_Screw006
+    4300124: FD_Fa ti_005
+    4300126: FD_Hose002
+    4300128: Line002
+    4300130: Box040
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
