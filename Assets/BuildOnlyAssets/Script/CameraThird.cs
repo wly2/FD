@@ -16,12 +16,13 @@ using System.Collections;
 #endregion
 
 
-public class CameraThird : MonoBehaviour
+public class CameraThird : MonoSingleton<CameraThird>
 {
     float x, y;
     Camera camer;
     private Transform cameraTrans;
-    private Transform tragetTrans;
+
+    [HideInInspector]public Transform tragetTrans;
     private float NStartSee;
     public Transform mastTrans;
     public float minSee = -30;

@@ -23,6 +23,10 @@ public class CameraLookAt : ManagerCamera
 {
     [SerializeField] Transform traControlBox;//操作箱
     [SerializeField] Transform traComputer;//电脑
+    [SerializeField] Transform traCRH2;//CRH
+    [SerializeField] Transform traFati;//阀体
+    [SerializeField] Transform traCeya;//测压模块
+    [SerializeField] Transform traJiaojia;//桥梁脚架
 
     public GameObject ComputerScreen;
 
@@ -33,18 +37,7 @@ public class CameraLookAt : ManagerCamera
         //OverView();
     }
 
-    
-
-    //public void lookAtModel(string model)
-    //{
-    //    switch (model)
-    //    {
-    //        case "CRH2":
-    //            // base.LookAtTarget = traCRH2;
-    //            base.LookAtAppointTarget();
-    //            break;
-    //    }
-    //}
+   
     
     public void NearControlBox()
     {
@@ -53,7 +46,7 @@ public class CameraLookAt : ManagerCamera
         base.LookAtTarget = traControlBox;
         base.LookAtAppointTarget();
         ManagerGame.instance.txtTip.text = ConfigPath.STEP2;
-        Debug.Log("正在跳转操作箱");
+        MyDebug.Log("正在跳转操作箱");
     }
 
     public void NearComputer()
@@ -62,14 +55,52 @@ public class CameraLookAt : ManagerCamera
         MainCamera.gameObject.SetActive(false);
         base.LookAtTarget = traComputer;
         base.LookAtAppointTarget();
-       
-        Debug.Log("正在跳转显示屏");
+
+        MyDebug.Log("正在跳转显示屏");
 
         ComputerScreen.GetComponent<MeshRenderer>().material.color = Color.white;
         ManagerGame.instance.txtTip.text = ConfigPath.STEP5;
     }
 
+    /// <summary>
+    /// 看向列车
+    /// </summary>
+    public void NearCRH2()
+    {
+        CameraLookAt.gameObject.SetActive(true);
+        MainCamera.gameObject.SetActive(false);
 
+        base.LookAtTarget = traCRH2;
+        base.LookAtAppointTarget();
+    }
+
+    /// <summary>
+    /// 看向阀体
+    /// </summary>
+    public void NearFaTi()
+    {
+        MainCamera.gameObject.SetActive(false);
+
+        base.LookAtTarget = traFati;
+        base.LookAtAppointTarget();
+    }
+
+    /// <summary>
+    /// 看向测压模块
+    /// </summary>
+    public void NearCeYa()
+    {
+        MainCamera.gameObject.SetActive(false);
+
+        base.LookAtTarget = traCeya;
+        base.LookAtAppointTarget();
+    }
+
+    public void NearJiaojia()
+    {
+        //base.LookAtTarget = traJiaojia;
+        //base.LookAtAppointTarget();
+    }
 
 
 }

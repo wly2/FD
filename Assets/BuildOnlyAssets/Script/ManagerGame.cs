@@ -8,27 +8,32 @@ public class ManagerGame : MonoSingleton<ManagerGame>
 {
     public Text txtTip;
     public GameObject Player;//玩家位置
-    [SerializeField] GameObject imgModeType;//学习模式
-    [SerializeField] GameObject imgGongKuang;//选择工况
-    [SerializeField] GameObject imgTypeTrain;//选择车型
-    [SerializeField] GameObject imgBridge;//安装桥梁选项框
+    public GameObject objBridge;//桥梁环境模型
 
-/// <summary>
-/// Start is called on the frame when a script is enabled just before
-/// any of the Update methods is called the first time.
-/// </summary>
-void Start()
-{
-    txtTip.text = Assets.Scripts.BridgeStep.TAKE2;
-}
-    /// <summary>
-    /// Update is called every frame, if the MonoBehaviour is enabled.
-    /// </summary>
+    //=============搭建完的桥梁模型==========//
+    public GameObject objBriFoot;//脚架
+    public GameObject objReBriFoot;//原脚架
+    public GameObject objBrige;//桥梁
+    public GameObject objBriPulley;//皮带
+    public List<GameObject> objBriHuaKuai = new List<GameObject>();//滑块
+    public static int brideUIGameStep = 0;//顶部UI步骤
+
+    //=============搭建前桥梁模型==========//
+    public GameObject[] objReBriPiDai = new GameObject[2];
+    public GameObject objReBri;
+
+    private void Awake()
+    {
+        txtTip.text = BridgeGameStep.STEP1;
+    }
+
+
     void Update()
     {
         // GameStart();
         //GameStep();
     }
+
 
 
     public void GameStart()
@@ -61,30 +66,6 @@ void Start()
         Player.transform.position = new Vector3(6.24004f, 839173f, -37.812f);
     }
 
-    /// <summary>
-    /// 学习模式
-    /// </summary>
-    public void ModeStudy()
-    {
-        imgModeType.SetActive(false);
-    }
-
-    /// <summary>
-    /// 选择车型
-    /// </summary>
-    public void ChoBridge()
-    {
-        imgTypeTrain.SetActive(true);
-    }
-
-    /// <summary>
-    /// 关闭选择工况选项框
-    /// </summary>
-    public void CloCho()
-    {
-        imgGongKuang.SetActive(false);
-    }
-
 
     /// <summary>
     /// OnTriggerEnter is called when the Collider other enters the trigger.
@@ -92,13 +73,10 @@ void Start()
     /// <param name="other">The other Collider involved in this collision.</param>
     void OnTriggerEnter(Collider something)
     {
-        print("发生碰撞");
-        if (something.tag == "bridge")
-        {
-            print("发生碰撞");
-
-        }
-
+        print("================触发桥梁工况环境===============");
+        objReBriFoot.GetComponent<Outline>();
+        
+        //GetComponent<Outline>().enabled = !GetComponent<Outline>().enabled;
+        //objReBriFoot.GetComponent<>
     }
-
 }
