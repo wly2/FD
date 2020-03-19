@@ -59,5 +59,36 @@ namespace Assets.Scripts
     {
         public const string STEP1 = "选择车型";
         public const string STEP2 = "选中桥梁脚架，移动到正确位置";
+
+        public const string STEP3 = "选中高亮部分，连接阀体";
+        public const string STEP4 = "选中测压模块，连接电子扫描阀";
+        public const string STEP5 = "选中高亮部分，测压模块连接电子扫描阀";
+        public const string STEP6 = "选中高亮部分，连接电脑";
+        public const string STEP7 = "扭动控制台加电钥匙";
+        public const string STEP8 = "扭动控制计算机按钮";
+        public const string STEP9 = "点击电脑显示屏ShuCtl软件";
+        public const string STEP10 = "扭动控制箱辅电允许按钮";
+        public const string STEP11 = "点击电脑显示屏开辅电按钮";
+
+        public const string STEP12 = "一分钟后，点击电脑显示屏合闸按钮";
+        public const string STEP13 = "一分钟后，点击电脑显示屏开车按钮";
+
+        public const string STEP14 = "将电压逐渐降至0V，等转速降到15转以下，按软件中停车按钮";
     }
+
+    public class BridgeGameStepTip
+    {
+
+        public const string TIP1 = "输入电压，加压幅度为0.5V";
+        public const string TIPFUDIAN = "正在开辅电，请等待十秒钟!";
+        public const string TIPFUDIAN_1 = "开辅电完毕!";
+
+        public const string TIPHEZHA = "正在合闸，请等待十秒钟!";
+        public const string TIPHEZHA_1 = "合闸完毕!";
+
+        public const string TIPKAICHE = "正在开车，请等待5秒钟!";
+        public const string TIPKAICHE_1 = "已经开车，可以加风速或转速!";
+
+    }
+
 }

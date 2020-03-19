@@ -40,16 +40,24 @@ public class ManagerUI : MonoSingleton<ManagerUI>
 
     public List<GameObject> imgBriUIGameStep = new List<GameObject>();//顶部UI
 
+    [SerializeField] GameObject objPanelSetting;
+    [SerializeField] GameObject objPanelHelp;
+    [SerializeField] GameObject objPanelShebei;
+    [SerializeField] GameObject objPanelMudi;
+    [SerializeField] GameObject objPanelYuanli;
 
-    void Start()
+    public GameObject panelData;
+
+    private void Awake()
     {
-        // UI.SetActive(false);
+        imgTrainType.gameObject
+            .SetActive(true);
     }
 
     void Update()
     {
         //UIBtnClick();
-        bridgeUIGameStep();
+        //bridgeUIGameStep();
     }
 
     public void LabType(string labtype)
@@ -158,13 +166,22 @@ public class ManagerUI : MonoSingleton<ManagerUI>
         switch (btnName)
         {
             case "CRH2":
-                imgBriUIGameStep[1].GetComponent<Text>().color = Color.red;
+                ManagerGame.instance.isCRH = true;
+                imgBriUIGameStep[1].GetComponent<Text>().color = Color.blue;
                 ManagerGame.instance.objReBriFoot.GetComponent<cakeslice.Outline>().enabled = true;
 
                 ManagerGame.instance.txtTip.text = Assets.Scripts.BridgeGameStep.STEP2;
                 imgTrainType.gameObject.SetActive(false);
+
+                
                 break;
             case "380A":
+                ManagerGame.instance.isCRH = false;
+                imgBriUIGameStep[1].GetComponent<Text>().color = Color.blue;
+                ManagerGame.instance.objReBriFoot.GetComponent<cakeslice.Outline>().enabled = true;
+
+                ManagerGame.instance.txtTip.text = Assets.Scripts.BridgeGameStep.STEP2;
+                imgTrainType.gameObject.SetActive(false);
                 break;
             case "下一步":
                 imgBriLabAbout.gameObject.SetActive(false);
@@ -176,7 +193,6 @@ public class ManagerUI : MonoSingleton<ManagerUI>
             case "安装脚架":
                 AssemblyCSharp.MyDebug.Log("======安装脚架==========");
                 ManagerAni.instance.BuilBridgeStep(1);
-                ManagerGame.instance.objReBriFoot.GetComponent<cakeslice.Outline>().enabled = false;
                 break;
             case "安装皮带":
                 AssemblyCSharp.MyDebug.Log("======安装皮带==========");
@@ -196,8 +212,27 @@ public class ManagerUI : MonoSingleton<ManagerUI>
                 ManagerAni.instance.BuilBridgeStep(5);
                 break;
 
-            case "选择皮托管":
+            case "皮托管":
+                imgBriUIGameStep[3].GetComponent<Text>().color = Color.blue;
+                ManagerGame.instance.txtTip.text = Assets.Scripts.BridgeGameStep.STEP3;
                 imgPiTuoGuan.gameObject.SetActive(false);
+
+                if (ManagerGame.instance.isCRH)
+                {
+                    ManagerGame.instance.objSaomiaofa.GetComponent<cakeslice.Outline>().enabled = true;
+
+                    CinemachineController.instance.CVcamera[10].gameObject.SetActive(true);
+                    CinemachineController.instance.CVcamera[9].gameObject.SetActive(false);
+                    imgBriUIGameStep[3].GetComponent<Text>().color = Color.blue;
+                    ManagerGame.instance.txtTip.text = Assets.Scripts.BridgeGameStep.STEP3;
+                }
+                if (!ManagerGame.instance.isCRH)
+                {
+                    CinemachineController.instance.CVcamera[18].gameObject.SetActive(true);
+                    CinemachineController.instance.CVcamera[17].gameObject.SetActive(false);
+                    CinemachineController.instance.CVcamera[9].gameObject.SetActive(false);
+
+                }
                 break;
             case "安装阀体":
                 ManagerAni.instance.ani.SetBool("installFati", true);
@@ -205,32 +240,97 @@ public class ManagerUI : MonoSingleton<ManagerUI>
             case "安装测压模块":
                 ManagerAni.instance.ani.SetBool("insCeYaMoKuai", true);
                 break;
+
         }
     }
 
+    ///// <summary>
+    ///// 顶部UI逻辑
+    ///// </summary>
+    //public void bridgeUIGameStep()
+    //{
+    //    switch (ManagerGame.brideUIGameStep)
+    //    {
+    //        case 0:
+    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
+    //            break;
+    //        case 1:
+    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
+    //            break;
+    //        case 2:
+    //            imgBriUIGameStep[3].GetComponent<Text>().color = Color.red;
+    //            break;
+    //        case 3:
+    //            imgBriUIGameStep[4].GetComponent<Text>().color = Color.red;
+    //            break;
+    //        case 4:
+    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
+    //            break;
+    //        case 5:
+    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
+    //            break;
+    //        case 6:
+    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
+    //            break;
+    //        case 7:
+    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
+    //            break;
+    //    }
+    //}
+
     /// <summary>
-    /// 顶部UI逻辑
+    /// 左边UI按钮
     /// </summary>
-    public void bridgeUIGameStep()
+    public void PanelLeft(string btnName)
     {
-        switch (ManagerGame.brideUIGameStep)
+        bool isPree = true;
+        switch (btnName)
         {
-            case 0:
-                imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
+            case "实验原理":
+                if (!objPanelYuanli.activeSelf)
+                {
+                    objPanelYuanli.SetActive(true);
+                }
+                else objPanelYuanli.SetActive(false);
+
                 break;
-            case 1:
+
+            case "实验目的":
+                if (!objPanelMudi.activeSelf)
+                {
+                    objPanelMudi.SetActive(true);
+                }
+                else objPanelMudi.SetActive(false);
+
                 break;
-            case 2:
+
+            case "实验设备":
+                if (!objPanelShebei.activeSelf)
+                {
+                    objPanelShebei.SetActive(true);
+                }
+                else objPanelShebei.SetActive(false);
                 break;
-            case 3:
+
+            case "帮助":
+                if (!objPanelHelp.activeSelf)
+                {
+                    objPanelHelp.SetActive(true);
+                }
+                else objPanelHelp.SetActive(false);
                 break;
-            case 4:
-                break;
-            case 5:
-                break;
-            case 6:
-                break;
-            case 7:
+
+            case "设置":
+                print("=============点击设置====================");
+                if (!objPanelSetting.activeSelf)
+                {
+                    objPanelSetting.SetActive(true);
+                }
+                else objPanelSetting.SetActive(false);
+                //Transform.Find("");
+                //GameObject hp_bar = (GameObject)Instantiate(Resources.Load("PanelLeft/prefabSetting"));
+                //GameObject mUICanvas = GameObject.Find("Canvas/Panel_Centre");
+                //hp_bar.transform.parent = mUICanvas.transform;
                 break;
         }
     }

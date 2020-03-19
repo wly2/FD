@@ -7,6 +7,8 @@ using Assets.Scripts;
 public class ManagerGame : MonoSingleton<ManagerGame>
 {
     public Text txtTip;
+ 
+
     public GameObject Player;//玩家位置
     public GameObject objBridge;//桥梁环境模型
 
@@ -17,10 +19,27 @@ public class ManagerGame : MonoSingleton<ManagerGame>
     public GameObject objBriPulley;//皮带
     public List<GameObject> objBriHuaKuai = new List<GameObject>();//滑块
     public static int brideUIGameStep = 0;//顶部UI步骤
+    //=====================选中模型提示===================//
+    public GameObject objSaomiaofa;//扫描阀
+    public GameObject objConnectSaimiaofa;//连接扫描阀线
+    public GameObject objConnectComputer;//连接电脑线
+
+    public GameObject objCRH2;//列车CRH2
+    public GameObject obj380A;//列车380A
 
     //=============搭建前桥梁模型==========//
     public GameObject[] objReBriPiDai = new GameObject[2];
     public GameObject objReBri;
+
+    //*************************控制台按钮提示效果************************//
+    public GameObject objKeyControl;
+    public GameObject objKeyComputer;
+    public GameObject objKeyFuDian;
+    public GameObject objKeyDong;
+
+   [HideInInspector] public bool isCRH = true;//判断选择的车型
+
+   
 
     private void Awake()
     {
@@ -32,6 +51,13 @@ public class ManagerGame : MonoSingleton<ManagerGame>
     {
         // GameStart();
         //GameStep();
+        if (TimeLineController.instance.playablyDirector.initialTime == 7)
+        {
+
+            TimeLineController.instance.playablyDirector.Pause();
+        }
+
+        
     }
 
 
