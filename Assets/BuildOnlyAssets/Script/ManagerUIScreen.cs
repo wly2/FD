@@ -86,6 +86,7 @@ public class ManagerUIScreen : MonoSingleton<ManagerUIScreen>
                     ///采集数据
                     ///
                     ManagerUI.instance.panelData.SetActive(true);
+                    ManagerUI.instance.panelCentre.SetActive(true);
 
                 }
                 break;

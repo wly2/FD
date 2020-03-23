@@ -185,6 +185,8 @@ public class ManagerModel : MonoSingleton<ManagerModel>
             ManagerGame.instance.objKeyComputer.GetComponent<cakeslice.Outline>().enabled = false;
             ManagerGame.instance.objKeyComputer.GetComponent<Animator>().enabled = true;
            ManagerAni.instance.ani.SetBool("keyComputer", true);
+
+            ManagerUI.instance.panelCentre.SetActive(false);
         }
 
 

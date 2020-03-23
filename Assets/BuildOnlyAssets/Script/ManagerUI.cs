@@ -47,6 +47,7 @@ public class ManagerUI : MonoSingleton<ManagerUI>
     [SerializeField] GameObject objPanelYuanli;
 
     public GameObject panelData;
+    public GameObject panelCentre;//
 
     private void Awake()
     {
