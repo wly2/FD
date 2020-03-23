@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: f955ef2fac187114d87e84a734f7644b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "Dong che_Gai\uFF08CRH2\uFF09"
+    100002: "Dong che_Gai\uFF08CRH2\uFF09001"
+    100004: Dongche_Lianjie
+    100006: Dongche_Lianjie006
+    100008: Dongche_Lianjie007
+    100010: Dongche_Lianjie008
+    100012: Dongche_Lianjie009
+    100014: Dongche_Lianjie010
+    100016: Dongche_Lianjie011
+    100018: Dongche_Lianjie012
+    100020: Dongche_Lianjie013
+    100022: Dongche_Lianjie014
+    100024: FD_Bridge
+    100026: FD_Bridge Prop001
+    100028: FD_Bridge Prop002
+    100030: FD_Bridge001
+    100032: FD_Button Green(dian yuan zhi shi)
+    100034: FD_Button Red(xi tong bao jing)
+    100036: FD_Button(ji ting)
+    100038: FD_cao zuo tai_2
+    100040: FD_ce ya mo kuai
+    100042: FD_Ce ya mo kuai xian
+    100044: FD_Computer
+    100046: FD_Computer Screen
+    100048: FD_Computer_Keyboard
+    100050: FD_CRH003
+    100052: FD_CRH2
+    100054: FD_Fa ti_003
+    100056: FD_Fa ti_004
+    100058: FD_Fa ti_line(CRH2)
+    100060: FD_Hose001
+    100062: FD_Key
+    100064: FD_Pulley
+    100066: FD_Pulley001
+    100068: FD_Pulley002
+    100070: FD_Pulley003
+    100072: FD_sao miao fa
+    100074: FD_Screen(cao zuo tai_2)
+    100076: FD_Switch_1
+    100078: FD_Switch_2
+    100080: FD_Table
+    100082: FD_Wang xian
+    100084: //RootNode
+    100086: Lianjie_Screw
+    100088: Lianjie_Screw001
+    100090: Lianjie_Screw002
+    100092: Lianjie_Screw003
+    100094: Lianjie_Screw004
+    100096: Lianjie_Screw005
+    100098: Lianjie_Screw006
+    100100: Lianjie_Screw007
+    100102: Lianjie_Screw008
+    100104: Lianjie_Screw009
+    100106: Pulley_Crawler
+    100108: Pulley_Crawler001
+    100110: Pulley_Crawler002
+    100112: Pulley_Crawler003
+    400000: "Dong che_Gai\uFF08CRH2\uFF09"
+    400002: "Dong che_Gai\uFF08CRH2\uFF09001"
+    400004: Dongche_Lianjie
+    400006: Dongche_Lianjie006
+    400008: Dongche_Lianjie007
+    400010: Dongche_Lianjie008
+    400012: Dongche_Lianjie009
+    400014: Dongche_Lianjie010
+    400016: Dongche_Lianjie011
+    400018: Dongche_Lianjie012
+    400020: Dongche_Lianjie013
+    400022: Dongche_Lianjie014
+    400024: FD_Bridge
+    400026: FD_Bridge Prop001
+    400028: FD_Bridge Prop002
+    400030: FD_Bridge001
+    400032: FD_Button Green(dian yuan zhi shi)
+    400034: FD_Button Red(xi tong bao jing)
+    400036: FD_Button(ji ting)
+    400038: FD_cao zuo tai_2
+    400040: FD_ce ya mo kuai
+    400042: FD_Ce ya mo kuai xian
+    400044: FD_Computer
+    400046: FD_Computer Screen
+    400048: FD_Computer_Keyboard
+    400050: FD_CRH003
+    400052: FD_CRH2
+    400054: FD_Fa ti_003
+    400056: FD_Fa ti_004
+    400058: FD_Fa ti_line(CRH2)
+    400060: FD_Hose001
+    400062: FD_Key
+    400064: FD_Pulley
+    400066: FD_Pulley001
+    400068: FD_Pulley002
+    400070: FD_Pulley003
+    400072: FD_sao miao fa
+    400074: FD_Screen(cao zuo tai_2)
+    400076: FD_Switch_1
+    400078: FD_Switch_2
+    400080: FD_Table
+    400082: FD_Wang xian
+    400084: //RootNode
+    400086: Lianjie_Screw
+    400088: Lianjie_Screw001
+    400090: Lianjie_Screw002
+    400092: Lianjie_Screw003
+    400094: Lianjie_Screw004
+    400096: Lianjie_Screw005
+    400098: Lianjie_Screw006
+    400100: Lianjie_Screw007
+    400102: Lianjie_Screw008
+    400104: Lianjie_Screw009
+    400106: Pulley_Crawler
+    400108: Pulley_Crawler001
+    400110: Pulley_Crawler002
+    400112: Pulley_Crawler003
+    2100000: kong zhi tai
+    2100002: Button_Silver
+    2100004: Words_Black_1
+    2100006: Words_White
+    2100008: 12 - Default
+    2100010: 11 - Default
+    2100012: Button_Black
+    2100014: 'Material #66'
+    2100016: 'Material #62'
+    2100018: 'Material #58'
+    2100020: 'Material #57'
+    2100022: 'Material #56'
+    2100024: 'Material #53'
+    2100026: Button_Green
+    2100028: Button_Red
+    2100030: Screen
+    2100032: Button_White
+    2100034: 01 - Default
+    2100036: 'Material #21'
+    2100038: 'Material #268'
+    2100040: PlasticGlade01
+    2100042: ChromsFORled
+    2100044: LedIlumin
+    2100046: MetelLews01
+    2100048: Mat3d66-493846-1-504
+    2100050: Mat3d66-493846-92-182
+    2100052: Mat3d66-493846-74-923
+    2100054: Mat3d66-493846-13-410
+    2100056: Mat3d66-493846-6-810
+    2100058: Mat3d66-493846-4-136
+    2100060: Mat3d66-493846-60-886
+    2100062: Mat3d66-493846-81-54
+    2100064: Mat3d66-493846-71-909
+    2100066: Mat3d66-493846-68-454
+    2100068: Mat3d66-493846-59-78
+    2100070: Mat3d66-493846-55-696
+    2100072: Mat3d66-493846-61-932
+    2100074: Mat3d66-493846-66-218
+    2100076: Mat3d66-493846-67-251
+    2100078: Mat3d66-493846-77-587
+    2100080: Mat3d66-493846-76-893
+    2100082: Mat3d66-493846-51-780
+    2100084: Mat3d66-493846-56-90
+    2100086: Mat3d66-493846-57-125
+    2100088: Mat3d66-493846-50-721
+    2100090: Mat3d66-493846-49-672
+    2100092: Mat3d66-493846-48-508
+    2100094: Mat3d66-493846-47-451
+    2100096: Mat3d66-493846-46-271
+    2100098: Mat3d66-493846-45-762
+    2100100: Mat3d66-493846-44-325
+    2100102: Mat3d66-493846-43-13
+    2100104: Mat3d66-493846-42-793
+    2100106: Mat3d66-493846-41-336
+    2100108: Mat3d66-493846-96-135
+    2100110: Mat3d66-493846-54-427
+    2100112: Mat3d66-493846-53-465
+    2100114: Mat3d66-493846-97-457
+    2100116: Mat3d66-493846-88-840
+    2100118: Mat3d66-493846-75-823
+    2100120: Mat3d66-493846-33-191
+    2100122: Mat3d66-493846-26-427
+    2100124: Mat3d66-493846-9-69
+    2100126: Mat3d66-493846-65-373
+    2100128: Mat3d66-493846-83-866
+    2100130: Mat3d66-493846-31-48
+    2100132: Mat3d66-493846-36-832
+    2100134: Mat3d66-493846-86-803
+    2100136: Mat3d66-493846-72-741
+    2100138: Mat3d66-493846-84-150
+    2100140: Mat3d66-493846-29-175
+    2100142: Mat3d66-493846-34-607
+    2100144: Mat3d66-493846-28-189
+    2100146: Mat3d66-493846-32-423
+    2100148: Mat3d66-493846-35-111
+    2100150: Mat3d66-493846-30-429
+    2100152: Mat3d66-493846-27-472
+    2100154: Mat3d66-493846-25-543
+    2100156: Mat3d66-493846-12-901
+    2100158: Mat3d66-493846-63-961
+    2100160: Mat3d66-493846-70-846
+    2100162: Mat3d66-493846-52-308
+    2100164: Mat3d66-493846-82-981
+    2100166: Mat3d66-493846-5-403
+    2100168: Mat3d66-493846-37-608
+    2100170: Mat3d66-493846-40-852
+    2100172: Mat3d66-493846-7-776
+    2100174: Mat3d66-493846-39-512
+    2100176: Mat3d66-493846-95-373
+    2100178: Mat3d66-493846-11-264
+    2100180: Mat3d66-493846-93-644
+    2100182: Mat3d66-493846-3-451
+    2100184: Mat3d66-493846-20-773
+    2100186: Mat3d66-493846-38-442
+    2100188: Mat3d66-493846-62-280
+    2100190: Mat3d66-493846-64-377
+    2100192: Mat3d66-493846-8-470
+    2100194: Mat3d66-493846-87-702
+    2100196: Mat3d66-493846-85-679
+    2100198: Mat3d66-493846-80-31
+    2100200: Mat3d66-493846-22-153
+    2100202: Mat3d66-493846-21-428
+    2100204: Mat3d66-493846-2-971
+    2100206: Mat3d66-493846-19-805
+    2100208: Mat3d66-493846-94-853
+    2100210: Mat3d66-493846-15-432
+    2100212: Mat3d66-493846-16-408
+    2100214: Mat3d66-493846-14-932
+    2100216: Mat3d66-493846-23-932
+    2100218: Mat3d66-493846-58-100
+    2100220: Mat3d66-493846-79-80
+    2100222: Mat3d66-493846-10-9
+    2100224: Mat3d66-493846-78-957
+    2100226: Mat3d66-493846-89-627
+    2100228: Mat3d66-493846-100-284
+    2100230: Mat3d66-493846-17-275
+    2100232: Mat3d66-493846-99-748
+    2100234: Mat3d66-493846-98-540
+    2100236: Mat3d66-493846-24-466
+    2100238: Mat3d66-493846-18-262
+    2100240: Mat3d66-493846-69-223
+    2100242: Mat3d66-493846-73-258
+    2100244: Mat3d66-493846-90-799
+    2100246: Mat3d66-493846-91-246
+    2100248: Table_1
+    2100250: Table_2
+    2100252: Table_3
+    2100254: Table_4
+    2100256: FD_sao miao fa
+    2100258: Sao miao fa_Zhu ti
+    2100260: Word_Black_2
+    2100262: Sao miao fa_White
+    2100264: Sao miao fa_Black
+    2100266: Sao miao fa_Gold
+    2100268: Sao miao fa_Screw
+    2100270: Bridge  handrail
+    2100272: 07 - Default
+    2100274: 1gg
+    2100276: Standard_19t
+    2100278: ck
+    2100280: 'vray Material #352399479'
+    2100282: vray xzzz
+    2100284: vray VAC-PUEN
+    2100286: vray pp
+    2100288: vray ddd
+    2100290: vray heixiav
+    2100292: key_2
+    2100294: key_1
+    2100296: Fa ti_lv
+    2100298: 13 - Default
+    2100300: Fa ti_Gold1
+    2100302: Fa ti_Gold2
+    2100304: 05 - Default
+    2100306: FD_xing dong dai_
+    2100308: Bridge pier
+    2100310: 16 - Default
+    2100312: FD_Line
+    2100314: FD_Wang xian_1
+    2100316: FD_Wang xian_2
+    2100318: FD_Wang xian_3
+    2100320: 3d66.com_858400_01
+    2100322: FD_Wang xian_4
+    2100324: No Name
+    2300000: "Dong che_Gai\uFF08CRH2\uFF09"
+    2300002: "Dong che_Gai\uFF08CRH2\uFF09001"
+    2300004: Dongche_Lianjie
+    2300006: Dongche_Lianjie006
+    2300008: Dongche_Lianjie007
+    2300010: Dongche_Lianjie008
+    2300012: Dongche_Lianjie009
+    2300014: Dongche_Lianjie010
+    2300016: Dongche_Lianjie011
+    2300018: Dongche_Lianjie012
+    2300020: Dongche_Lianjie013
+    2300022: Dongche_Lianjie014
+    2300024: FD_Bridge
+    2300026: FD_Bridge Prop001
+    2300028: FD_Bridge Prop002
+    2300030: FD_Bridge001
+    2300032: FD_Button Green(dian yuan zhi shi)
+    2300034: FD_Button Red(xi tong bao jing)
+    2300036: FD_Button(ji ting)
+    2300038: FD_cao zuo tai_2
+    2300040: FD_ce ya mo kuai
+    2300042: FD_Ce ya mo kuai xian
+    2300044: FD_Computer
+    2300046: FD_Computer Screen
+    2300048: FD_Computer_Keyboard
+    2300050: FD_CRH003
+    2300052: FD_CRH2
+    2300054: FD_Fa ti_003
+    2300056: FD_Fa ti_004
+    2300058: FD_Fa ti_line(CRH2)
+    2300060: FD_Hose001
+    2300062: FD_Key
+    2300064: FD_Pulley
+    2300066: FD_Pulley001
+    2300068: FD_Pulley002
+    2300070: FD_Pulley003
+    2300072: FD_sao miao fa
+    2300074: FD_Screen(cao zuo tai_2)
+    2300076: FD_Switch_1
+    2300078: FD_Switch_2
+    2300080: FD_Table
+    2300082: FD_Wang xian
+    2300084: Lianjie_Screw
+    2300086: Lianjie_Screw001
+    2300088: Lianjie_Screw002
+    2300090: Lianjie_Screw003
+    2300092: Lianjie_Screw004
+    2300094: Lianjie_Screw005
+    2300096: Lianjie_Screw006
+    2300098: Lianjie_Screw007
+    2300100: Lianjie_Screw008
+    2300102: Lianjie_Screw009
+    2300104: Pulley_Crawler
+    2300106: Pulley_Crawler001
+    2300108: Pulley_Crawler002
+    2300110: Pulley_Crawler003
+    3300000: "Dong che_Gai\uFF08CRH2\uFF09"
+    3300002: "Dong che_Gai\uFF08CRH2\uFF09001"
+    3300004: Dongche_Lianjie
+    3300006: Dongche_Lianjie006
+    3300008: Dongche_Lianjie007
+    3300010: Dongche_Lianjie008
+    3300012: Dongche_Lianjie009
+    3300014: Dongche_Lianjie010
+    3300016: Dongche_Lianjie011
+    3300018: Dongche_Lianjie012
+    3300020: Dongche_Lianjie013
+    3300022: Dongche_Lianjie014
+    3300024: FD_Bridge
+    3300026: FD_Bridge Prop001
+    3300028: FD_Bridge Prop002
+    3300030: FD_Bridge001
+    3300032: FD_Button Green(dian yuan zhi shi)
+    3300034: FD_Button Red(xi tong bao jing)
+    3300036: FD_Button(ji ting)
+    3300038: FD_cao zuo tai_2
+    3300040: FD_ce ya mo kuai
+    3300042: FD_Ce ya mo kuai xian
+    3300044: FD_Computer
+    3300046: FD_Computer Screen
+    3300048: FD_Computer_Keyboard
+    3300050: FD_CRH003
+    3300052: FD_CRH2
+    3300054: FD_Fa ti_003
+    3300056: FD_Fa ti_004
+    3300058: FD_Fa ti_line(CRH2)
+    3300060: FD_Hose001
+    3300062: FD_Key
+    3300064: FD_Pulley
+    3300066: FD_Pulley001
+    3300068: FD_Pulley002
+    3300070: FD_Pulley003
+    3300072: FD_sao miao fa
+    3300074: FD_Screen(cao zuo tai_2)
+    3300076: FD_Switch_1
+    3300078: FD_Switch_2
+    3300080: FD_Table
+    3300082: FD_Wang xian
+    3300084: Lianjie_Screw
+    3300086: Lianjie_Screw001
+    3300088: Lianjie_Screw002
+    3300090: Lianjie_Screw003
+    3300092: Lianjie_Screw004
+    3300094: Lianjie_Screw005
+    3300096: Lianjie_Screw006
+    3300098: Lianjie_Screw007
+    3300100: Lianjie_Screw008
+    3300102: Lianjie_Screw009
+    3300104: Pulley_Crawler
+    3300106: Pulley_Crawler001
+    3300108: Pulley_Crawler002
+    3300110: Pulley_Crawler003
+    4300000: FD_cao zuo tai_2
+    4300002: FD_Button Green(dian yuan zhi shi)
+    4300004: FD_Button Red(xi tong bao jing)
+    4300006: FD_Screen(cao zuo tai_2)
+    4300008: FD_Button(ji ting)
+    4300010: FD_Computer
+    4300012: FD_Computer Screen
+    4300014: FD_Computer_Keyboard
+    4300016: FD_Table
+    4300018: FD_sao miao fa
+    4300020: FD_Switch_1
+    4300022: FD_Switch_2
+    4300024: FD_Bridge
+    4300026: FD_CRH2
+    4300028: FD_Key
+    4300030: FD_Fa ti_003
+    4300032: FD_Pulley
+    4300034: Pulley_Crawler
+    4300036: "Dong che_Gai\uFF08CRH2\uFF09"
+    4300038: Dongche_Lianjie
+    4300040: Lianjie_Screw
+    4300042: Dongche_Lianjie006
+    4300044: Lianjie_Screw001
+    4300046: Dongche_Lianjie007
+    4300048: Lianjie_Screw002
+    4300050: Dongche_Lianjie008
+    4300052: Lianjie_Screw003
+    4300054: Dongche_Lianjie009
+    4300056: Lianjie_Screw004
+    4300058: FD_Bridge Prop001
+    4300060: FD_Fa ti_004
+    4300062: FD_Hose001
+    4300064: FD_Fa ti_line(CRH2)
+    4300066: FD_Wang xian
+    4300068: FD_Ce ya mo kuai xian
+    4300070: FD_Pulley001
+    4300072: Pulley_Crawler001
+    4300074: FD_ce ya mo kuai
+    4300076: Dongche_Lianjie010
+    4300078: Lianjie_Screw007
+    4300080: Dongche_Lianjie011
+    4300082: Lianjie_Screw008
+    4300084: Dongche_Lianjie012
+    4300086: Lianjie_Screw005
+    4300088: Dongche_Lianjie013
+    4300090: Lianjie_Screw009
+    4300092: Dongche_Lianjie014
+    4300094: Lianjie_Screw006
+    4300096: FD_Pulley002
+    4300098: Pulley_Crawler002
+    4300100: FD_Bridge001
+    4300102: FD_Pulley003
+    4300104: Pulley_Crawler003
+    4300106: FD_Bridge Prop002
+    4300108: FD_CRH003
+    4300110: "Dong che_Gai\uFF08CRH2\uFF09001"
+    7400000: installFoot
+    7400002: Take 001 (1)
+    7400004: Take 001 (2)
+    7400006: Take 001 (3)
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: installFoot
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishinstallFoot
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001 (1)
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001 (2)
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001 (3)
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
