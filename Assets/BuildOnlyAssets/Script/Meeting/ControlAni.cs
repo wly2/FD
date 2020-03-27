@@ -19,24 +19,16 @@ using UnityEngine;
 
 public class ControlAni : MonoSingleton<ControlAni>
 {
-    Animator ani;
+  [HideInInspector] public Animator ani;
     // Start is called before the first frame update
     void Start()
     {
         ani = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
-        {
-            ani.SetBool("installFoot", true);
-        }
-    }
+    
 
     void FinishinstallFoot()
     {
-
+        ManagerAllGame.instance.HideManagerCamera(0);
     }
 }

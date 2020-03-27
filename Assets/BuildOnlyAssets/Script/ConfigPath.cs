@@ -20,6 +20,7 @@ namespace Assets.Scripts
     {
         public const string SCENE_GAME = "SCENE_GAME";//实验场景
         public const string SCENE_LOADING = "SCENE_LOADING";//加载场景
+        public const string SCENE_LOADING_MEETING = "SCENE_MEETING";//加载场景
     }
 
     /// <summary>
@@ -88,6 +89,13 @@ namespace Assets.Scripts
 
         public const string TIPKAICHE = "正在开车，请等待5秒钟!";
         public const string TIPKAICHE_1 = "已经开车，可以加风速或转速!";
+
+    }
+
+    public class MeetingStep
+    {
+        public const string TIP1 = "移动到脚架位置，选择脚架";
+        public const string TIP2 = "选中脚架，将脚架移动到正确位置";
 
     }
 

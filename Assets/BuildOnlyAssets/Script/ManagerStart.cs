@@ -24,5 +24,10 @@ public class ManagerStart : MonoBehaviour
     {
          SceneManager.LoadScene(Assets.Scripts.PathScene.SCENE_LOADING);
     }
+
+    public void LoadSceneMeetingLoading()
+    {
+        SceneManager.LoadScene(Assets.Scripts.PathScene.SCENE_LOADING_MEETING);
+    }
 }
 

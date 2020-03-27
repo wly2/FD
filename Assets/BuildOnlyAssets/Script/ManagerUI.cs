@@ -49,6 +49,8 @@ public class ManagerUI : MonoSingleton<ManagerUI>
     public GameObject panelData;
     public GameObject panelCentre;//
 
+    public GameObject panelCeDianInput;//测点输入框
+
     private void Awake()
     {
         imgTrainType.gameObject
@@ -167,52 +169,32 @@ public class ManagerUI : MonoSingleton<ManagerUI>
         switch (btnName)
         {
             case "CRH2":
+
+                ManagerGame.instance.txtTip.text = "已选择CRH2车型，移动到桥梁脚架位置";
                 ManagerGame.instance.isCRH = true;
                 imgBriUIGameStep[1].GetComponent<Text>().color = Color.blue;
-                ManagerGame.instance.objReBriFoot.GetComponent<cakeslice.Outline>().enabled = true;
-
-                ManagerGame.instance.txtTip.text = Assets.Scripts.BridgeGameStep.STEP2;
+                ManagerGame.instance.ShowTipPreFabOutLine(0);
                 imgTrainType.gameObject.SetActive(false);
 
-                
+                UIWindow.instance.ShowUI();
+
+
                 break;
             case "380A":
                 ManagerGame.instance.isCRH = false;
                 imgBriUIGameStep[1].GetComponent<Text>().color = Color.blue;
-                ManagerGame.instance.objReBriFoot.GetComponent<cakeslice.Outline>().enabled = true;
+                ManagerGame.instance.objReBriFoot[0].GetComponent<cakeslice.Outline>().enabled = true;
 
                 ManagerGame.instance.txtTip.text = Assets.Scripts.BridgeGameStep.STEP2;
                 imgTrainType.gameObject.SetActive(false);
+
+                UIWindow.instance.ShowUI();
                 break;
             case "下一步":
                 imgBriLabAbout.gameObject.SetActive(false);
                 imgTrainType.gameObject.SetActive(true);
                 ManagerGame.instance.txtTip.text = "选择车型";
                 break;
-
-
-            case "安装脚架":
-                AssemblyCSharp.MyDebug.Log("======安装脚架==========");
-                ManagerAni.instance.BuilBridgeStep(1);
-                break;
-            case "安装皮带":
-                AssemblyCSharp.MyDebug.Log("======安装皮带==========");
-                ManagerAni.instance.BuilBridgeStep(2);
-                break;
-            case "安装桥梁":
-                AssemblyCSharp.MyDebug.Log("======安装桥梁==========");
-                ManagerAni.instance.BuilBridgeStep(3);
-                break;
-            case "安装滑块":
-                AssemblyCSharp.MyDebug.Log("======安装滑块==========");
-                ManagerAni.instance.BuilBridgeStep(4);
-                break;
-
-            case "安装列车":
-                AssemblyCSharp.MyDebug.Log("======安装列车==========");
-                ManagerAni.instance.BuilBridgeStep(5);
-                break;
-
             case "皮托管":
                 imgBriUIGameStep[3].GetComponent<Text>().color = Color.blue;
                 ManagerGame.instance.txtTip.text = Assets.Scripts.BridgeGameStep.STEP3;
@@ -224,15 +206,20 @@ public class ManagerUI : MonoSingleton<ManagerUI>
 
                     CinemachineController.instance.CVcamera[10].gameObject.SetActive(true);
                     CinemachineController.instance.CVcamera[9].gameObject.SetActive(false);
+                    CinemachineController.instance.CVcamera[2].gameObject.SetActive(false);
                     imgBriUIGameStep[3].GetComponent<Text>().color = Color.blue;
                     ManagerGame.instance.txtTip.text = Assets.Scripts.BridgeGameStep.STEP3;
+
+                    ///
+                    panelCeDianInput.SetActive(false);
+                    ManagerCeDian.instance.goPanelCedian.SetActive(false);
+                    ManagerGame.instance.goModelCedian.SetActive(false);
                 }
                 if (!ManagerGame.instance.isCRH)
                 {
                     CinemachineController.instance.CVcamera[18].gameObject.SetActive(true);
                     CinemachineController.instance.CVcamera[17].gameObject.SetActive(false);
-                    CinemachineController.instance.CVcamera[9].gameObject.SetActive(false);
-
+                    CinemachineController.instance.CVcamera[9].gameObject.SetActive(false); 
                 }
                 break;
             case "安装阀体":
@@ -245,39 +232,7 @@ public class ManagerUI : MonoSingleton<ManagerUI>
         }
     }
 
-    ///// <summary>
-    ///// 顶部UI逻辑
-    ///// </summary>
-    //public void bridgeUIGameStep()
-    //{
-    //    switch (ManagerGame.brideUIGameStep)
-    //    {
-    //        case 0:
-    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
-    //            break;
-    //        case 1:
-    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
-    //            break;
-    //        case 2:
-    //            imgBriUIGameStep[3].GetComponent<Text>().color = Color.red;
-    //            break;
-    //        case 3:
-    //            imgBriUIGameStep[4].GetComponent<Text>().color = Color.red;
-    //            break;
-    //        case 4:
-    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
-    //            break;
-    //        case 5:
-    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
-    //            break;
-    //        case 6:
-    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
-    //            break;
-    //        case 7:
-    //            imgBriUIGameStep[0].GetComponent<Text>().color = Color.red;
-    //            break;
-    //    }
-    //}
+
 
     /// <summary>
     /// 左边UI按钮
@@ -335,4 +290,7 @@ public class ManagerUI : MonoSingleton<ManagerUI>
                 break;
         }
     }
+
+
+
 }

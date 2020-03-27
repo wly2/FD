@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: e87c065c605eea54cbaae71b315ea3aa
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: FD_Bridge Prop_014
+    100002: FD_Bridge Prop_015
+    100004: FD_Bridge Prop_016
+    100006: FD_Bridge Prop_017
+    100008: FD_Bridge Prop_018
+    100010: FD_Bridge Prop_019
+    100012: FD_Bridge Prop_020
+    100014: FD_Bridge Prop_021
+    100016: FD_Bridge Prop_022
+    100018: FD_Bridge Prop_023
+    100020: FD_Bridge Prop_024
+    100022: FD_Bridge Prop_025
+    100024: FD_Bridge Prop_026
+    100026: FD_Bridge Prop_1
+    100028: FD_Bridge Prop_10
+    100030: FD_Bridge Prop_11
+    100032: FD_Bridge Prop_12
+    100034: FD_Bridge Prop_13
+    100036: FD_Bridge Prop_2
+    100038: FD_Bridge Prop_3
+    100040: FD_Bridge Prop_4
+    100042: FD_Bridge Prop_5
+    100044: FD_Bridge Prop_6
+    100046: FD_Bridge Prop_7
+    100048: FD_Bridge Prop_8
+    100050: FD_Bridge Prop_9
+    100052: FD_Bridge_005
+    100054: FD_Bridge_006
+    100056: FD_Bridge_007
+    100058: FD_Bridge_008
+    100060: FD_Bridge_1
+    100062: FD_Bridge_2
+    100064: FD_Bridge_3
+    100066: FD_Bridge_4
+    100068: //RootNode
+    100070: FD_Pulley_1(Animation)
+    100072: FD_Pulley_2(Animation)
+    100074: FD_Pulley_3
+    100076: FD_Pulley_4
+    100078: Pulley_Crawler_1
+    100080: Pulley_Crawler_2
+    100082: Pulley_Crawler_3
+    100084: Pulley_Crawler_4
+    400000: FD_Bridge Prop_014
+    400002: FD_Bridge Prop_015
+    400004: FD_Bridge Prop_016
+    400006: FD_Bridge Prop_017
+    400008: FD_Bridge Prop_018
+    400010: FD_Bridge Prop_019
+    400012: FD_Bridge Prop_020
+    400014: FD_Bridge Prop_021
+    400016: FD_Bridge Prop_022
+    400018: FD_Bridge Prop_023
+    400020: FD_Bridge Prop_024
+    400022: FD_Bridge Prop_025
+    400024: FD_Bridge Prop_026
+    400026: FD_Bridge Prop_1
+    400028: FD_Bridge Prop_10
+    400030: FD_Bridge Prop_11
+    400032: FD_Bridge Prop_12
+    400034: FD_Bridge Prop_13
+    400036: FD_Bridge Prop_2
+    400038: FD_Bridge Prop_3
+    400040: FD_Bridge Prop_4
+    400042: FD_Bridge Prop_5
+    400044: FD_Bridge Prop_6
+    400046: FD_Bridge Prop_7
+    400048: FD_Bridge Prop_8
+    400050: FD_Bridge Prop_9
+    400052: FD_Bridge_005
+    400054: FD_Bridge_006
+    400056: FD_Bridge_007
+    400058: FD_Bridge_008
+    400060: FD_Bridge_1
+    400062: FD_Bridge_2
+    400064: FD_Bridge_3
+    400066: FD_Bridge_4
+    400068: //RootNode
+    400070: FD_Pulley_1(Animation)
+    400072: FD_Pulley_2(Animation)
+    400074: FD_Pulley_3
+    400076: FD_Pulley_4
+    400078: Pulley_Crawler_1
+    400080: Pulley_Crawler_2
+    400082: Pulley_Crawler_3
+    400084: Pulley_Crawler_4
+    2100000: 05 - Default
+    2100002: FD_xing dong dai_
+    2100004: Bridge  handrail
+    2100006: 07 - Default
+    2100008: Bridge pier
+    2300000: FD_Bridge Prop_014
+    2300002: FD_Bridge Prop_015
+    2300004: FD_Bridge Prop_016
+    2300006: FD_Bridge Prop_017
+    2300008: FD_Bridge Prop_018
+    2300010: FD_Bridge Prop_019
+    2300012: FD_Bridge Prop_020
+    2300014: FD_Bridge Prop_021
+    2300016: FD_Bridge Prop_022
+    2300018: FD_Bridge Prop_023
+    2300020: FD_Bridge Prop_024
+    2300022: FD_Bridge Prop_025
+    2300024: FD_Bridge Prop_026
+    2300026: FD_Bridge Prop_1
+    2300028: FD_Bridge Prop_10
+    2300030: FD_Bridge Prop_11
+    2300032: FD_Bridge Prop_12
+    2300034: FD_Bridge Prop_13
+    2300036: FD_Bridge Prop_2
+    2300038: FD_Bridge Prop_3
+    2300040: FD_Bridge Prop_4
+    2300042: FD_Bridge Prop_5
+    2300044: FD_Bridge Prop_6
+    2300046: FD_Bridge Prop_7
+    2300048: FD_Bridge Prop_8
+    2300050: FD_Bridge Prop_9
+    2300052: FD_Bridge_005
+    2300054: FD_Bridge_006
+    2300056: FD_Bridge_007
+    2300058: FD_Bridge_008
+    2300060: FD_Bridge_1
+    2300062: FD_Bridge_2
+    2300064: FD_Bridge_3
+    2300066: FD_Bridge_4
+    2300068: FD_Pulley_1(Animation)
+    2300070: FD_Pulley_2(Animation)
+    2300072: FD_Pulley_3
+    2300074: FD_Pulley_4
+    2300076: Pulley_Crawler_1
+    2300078: Pulley_Crawler_2
+    2300080: Pulley_Crawler_3
+    2300082: Pulley_Crawler_4
+    3300000: FD_Bridge Prop_014
+    3300002: FD_Bridge Prop_015
+    3300004: FD_Bridge Prop_016
+    3300006: FD_Bridge Prop_017
+    3300008: FD_Bridge Prop_018
+    3300010: FD_Bridge Prop_019
+    3300012: FD_Bridge Prop_020
+    3300014: FD_Bridge Prop_021
+    3300016: FD_Bridge Prop_022
+    3300018: FD_Bridge Prop_023
+    3300020: FD_Bridge Prop_024
+    3300022: FD_Bridge Prop_025
+    3300024: FD_Bridge Prop_026
+    3300026: FD_Bridge Prop_1
+    3300028: FD_Bridge Prop_10
+    3300030: FD_Bridge Prop_11
+    3300032: FD_Bridge Prop_12
+    3300034: FD_Bridge Prop_13
+    3300036: FD_Bridge Prop_2
+    3300038: FD_Bridge Prop_3
+    3300040: FD_Bridge Prop_4
+    3300042: FD_Bridge Prop_5
+    3300044: FD_Bridge Prop_6
+    3300046: FD_Bridge Prop_7
+    3300048: FD_Bridge Prop_8
+    3300050: FD_Bridge Prop_9
+    3300052: FD_Bridge_005
+    3300054: FD_Bridge_006
+    3300056: FD_Bridge_007
+    3300058: FD_Bridge_008
+    3300060: FD_Bridge_1
+    3300062: FD_Bridge_2
+    3300064: FD_Bridge_3
+    3300066: FD_Bridge_4
+    3300068: FD_Pulley_1(Animation)
+    3300070: FD_Pulley_2(Animation)
+    3300072: FD_Pulley_3
+    3300074: FD_Pulley_4
+    3300076: Pulley_Crawler_1
+    3300078: Pulley_Crawler_2
+    3300080: Pulley_Crawler_3
+    3300082: Pulley_Crawler_4
+    4300000: FD_Pulley_1(Animation)
+    4300002: Pulley_Crawler_1
+    4300004: FD_Pulley_2(Animation)
+    4300006: Pulley_Crawler_2
+    4300008: FD_Bridge_4
+    4300010: FD_Bridge_3
+    4300012: FD_Bridge_1
+    4300014: FD_Bridge_2
+    4300016: FD_Bridge Prop_1
+    4300018: FD_Bridge Prop_2
+    4300020: FD_Bridge Prop_3
+    4300022: FD_Bridge Prop_4
+    4300024: FD_Bridge Prop_5
+    4300026: FD_Bridge Prop_6
+    4300028: FD_Bridge Prop_7
+    4300030: FD_Bridge Prop_8
+    4300032: FD_Bridge Prop_9
+    4300034: FD_Bridge Prop_10
+    4300036: FD_Bridge Prop_11
+    4300038: FD_Bridge Prop_12
+    4300040: FD_Bridge Prop_13
+    4300042: FD_Bridge Prop_014
+    4300044: FD_Bridge Prop_015
+    4300046: FD_Bridge Prop_016
+    4300048: FD_Bridge Prop_017
+    4300050: FD_Bridge Prop_018
+    4300052: FD_Bridge Prop_019
+    4300054: FD_Bridge Prop_020
+    4300056: FD_Bridge Prop_021
+    4300058: FD_Bridge Prop_022
+    4300060: FD_Bridge Prop_023
+    4300062: FD_Bridge Prop_024
+    4300064: FD_Bridge Prop_025
+    4300066: FD_Bridge Prop_026
+    4300068: FD_Pulley_3
+    4300070: Pulley_Crawler_3
+    4300072: FD_Pulley_4
+    4300074: Pulley_Crawler_4
+    4300076: FD_Bridge_005
+    4300078: FD_Bridge_006
+    4300080: FD_Bridge_007
+    4300082: FD_Bridge_008
+    7400000: installBridge
+    7400002: installBridgeFoot2
+    7400004: installBridgeFoot1
+    7400006: installBridgeFoot3
+    7400008: insPidai
+    7400010: insBridge1
+    7400012: insBridge2
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: installBridge
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2900
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: installBridgeFoot1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishBriFoot1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: installBridgeFoot2
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishBriFoot2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: installBridgeFoot3
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishBriFoot3
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insPidai
+      takeName: Take 001
+      firstFrame: 2050
+      lastFrame: 2200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinsihInsPidai
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insBridge1
+      takeName: Take 001
+      firstFrame: 2200
+      lastFrame: 2350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishBridge1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insBridge2
+      takeName: Take 001
+      firstFrame: 2350
+      lastFrame: 2550
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishBridege2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
