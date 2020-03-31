@@ -143,6 +143,17 @@ public class MeetingControlGame : MonoSingleton<MeetingControlGame>
             MeetingManagerGame.instance.HideTipPreFab(6);
             txtTip.text = "扭动“钥匙开关”钥匙，启动动模型!";
         }
+
+        //============================隧道======================//
+        if (other.CompareTag("tipSuidao"))
+        {
+            MyDebug.Log("***********进入隧道触发区***********  ");
+            suidao.instance.camSuidao[0].SetActive(true);
+            suidao.instance.goSuidao.GetComponent<cakeslice.Outline>().enabled = true;
+
+            MeetingManagerGame.instance.HideTipPreFab(7);
+            txtTip.text = "选中隧道，安装隧道!";
+        }
     }
 
     /// <summary>

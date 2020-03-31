@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: bba28ae4ce6d91c46b96a2f32d759628
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box041
+    100002: FD_Bridge_1
+    100004: FD_Bridge_10
+    100006: FD_Bridge_11
+    100008: FD_Bridge_12
+    100010: FD_Bridge_2
+    100012: FD_Bridge_3
+    100014: FD_Bridge_4
+    100016: FD_Bridge_5
+    100018: FD_Bridge_6
+    100020: FD_Bridge_7
+    100022: FD_Bridge_8
+    100024: FD_Bridge_9
+    100026: //RootNode
+    400000: Box041
+    400002: FD_Bridge_1
+    400004: FD_Bridge_10
+    400006: FD_Bridge_11
+    400008: FD_Bridge_12
+    400010: FD_Bridge_2
+    400012: FD_Bridge_3
+    400014: FD_Bridge_4
+    400016: FD_Bridge_5
+    400018: FD_Bridge_6
+    400020: FD_Bridge_7
+    400022: FD_Bridge_8
+    400024: FD_Bridge_9
+    400026: //RootNode
+    2100000: No Name
+    2100002: Bridge  handrail
+    2100004: 07 - Default
+    2300000: Box041
+    2300002: FD_Bridge_1
+    2300004: FD_Bridge_10
+    2300006: FD_Bridge_11
+    2300008: FD_Bridge_12
+    2300010: FD_Bridge_2
+    2300012: FD_Bridge_3
+    2300014: FD_Bridge_4
+    2300016: FD_Bridge_5
+    2300018: FD_Bridge_6
+    2300020: FD_Bridge_7
+    2300022: FD_Bridge_8
+    2300024: FD_Bridge_9
+    3300000: Box041
+    3300002: FD_Bridge_1
+    3300004: FD_Bridge_10
+    3300006: FD_Bridge_11
+    3300008: FD_Bridge_12
+    3300010: FD_Bridge_2
+    3300012: FD_Bridge_3
+    3300014: FD_Bridge_4
+    3300016: FD_Bridge_5
+    3300018: FD_Bridge_6
+    3300020: FD_Bridge_7
+    3300022: FD_Bridge_8
+    3300024: FD_Bridge_9
+    4300000: Box041
+    4300002: FD_Bridge_7
+    4300004: FD_Bridge_8
+    4300006: FD_Bridge_10
+    4300008: FD_Bridge_9
+    4300010: FD_Bridge_11
+    4300012: FD_Bridge_12
+    4300014: FD_Bridge_6
+    4300016: FD_Bridge_1
+    4300018: FD_Bridge_5
+    4300020: FD_Bridge_4
+    4300022: FD_Bridge_2
+    4300024: FD_Bridge_3
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

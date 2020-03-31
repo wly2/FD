@@ -167,6 +167,19 @@ public class MeetingModelOnClick : MonoBehaviour
             //MeetingControlGame.instance.goControlKey.transform.rotation = new Quaternion(90f, 0, -158f, 0);
 
         }
+
+        //=================================隧道工况=======================//
+        if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.tag == "ModelSuidao" && Input.GetMouseButtonDown(0))
+        {
+            AssemblyCSharp.MyDebug.Log("**************************选中隧道***********************");
+            suidao.instance.goSuidao.GetComponent<cakeslice.Outline>().enabled = false;
+
+            //播放动画....
+            SDcontrolAni.instance.ani.SetBool("insSuidao", true);
+            //MeetingControlGame.instance.goControlKey.transform.rotation = new Quaternion(90f, 0, -158f, 0);
+
+        }
+
     }
 
 

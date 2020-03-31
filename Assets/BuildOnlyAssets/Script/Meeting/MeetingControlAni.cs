@@ -121,15 +121,30 @@ public class MeetingControlAni : MonoSingleton<MeetingControlAni>
 
     void FinishRightCrh2()
     {
-        MeetingManagerGame.instance.HideManagerCamera(6);
-
-        MeetingControlUI.instance.goPannelCedian.SetActive(true);
-        MeetingControlUI.instance.goPannelCedianPos.SetActive(true);
-        MeetingControlGame.instance.txtTip.text = "搭建桥梁完成。选中车头区域，布置车头测点。";
-
         //完成桥梁搭建
         MeetingControlUI.instance.goStepUI[0].GetComponent<Text>().color = Color.green;
+
+        ///隧道工况
+        if (suidao.instance.isSuidao == true)
+        {
+            MeetingControlGame.instance.txtTip.text = "移至隧道旁，安装隧道!";
+            MeetingManagerGame.instance.ShowTipPreFab(7);
+            MeetingManagerGame.instance.HideManagerCamera(6);
+        }
+
+        ///交会工况
+         if (Meeting.instance.isMeeting == true)
+        {
+            MeetingControlGame.instance.txtTip.text = "搭建桥梁完成。选中车头区域，布置车头测点。";
+            MeetingManagerGame.instance.HideManagerCamera(6);
+
+            MeetingControlUI.instance.goPannelCedian.SetActive(true);
+            MeetingControlUI.instance.goPannelCedianPos.SetActive(true);
+            MeetingControlGame.instance.txtTip.text = "搭建桥梁完成。选中车头区域，布置车头测点。";
+        }
+      
     }
+
 
     void FinishInsFati()
     {
