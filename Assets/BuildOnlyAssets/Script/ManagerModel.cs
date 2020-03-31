@@ -25,7 +25,7 @@ public class ManagerModel : MonoSingleton<ManagerModel>
     [HideInInspector] Camera CameraBuXiuGang;
     [HideInInspector] public Ray ray;
     [HideInInspector] public RaycastHit hitInfo;
-    public List<GameObject> objCedian = new List<GameObject>();
+   
 
 
 
@@ -36,34 +36,8 @@ public class ManagerModel : MonoSingleton<ManagerModel>
 
     private void Update()
     {
-        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.tag == "cedian1" && Input.GetMouseButtonDown(0))
-        {
-            AssemblyCSharp.MyDebug.Log("**************************选中测点1***********************");
-            for (int i = 0; i < objCedian.Count; i++)
-            {
-                objCedian[0].gameObject.SetActive(false);
-            }
-        }
-        if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.tag == "cedian2" && Input.GetMouseButtonDown(0))
-        {
-            AssemblyCSharp.MyDebug.Log("**************************选中测点2***********************");
-            for (int i = 0; i < objCedian.Count; i++)
-            {
-                objCedian[1].gameObject.SetActive(false);
-            }
-        }
-        if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.tag == "cedian3" && Input.GetMouseButtonDown(0))
-        {
-            AssemblyCSharp.MyDebug.Log("**************************选中测点3***********************");
-            for (int i = 0; i < objCedian.Count; i++)
-            {
-                ManagerUI.instance.imgInstallFaTi.gameObject.SetActive(true);
-                ManagerUI.instance.imgPiTuoGuan.gameObject.SetActive(false);
-                objCedian[2].gameObject.SetActive(false);
-                ManagerGame.instance.txtTip.text = FaTiStep.STEP1;
-            }
-        }
+        
+        
 
 
         ///======================搭建桥梁环境=======================//
@@ -243,52 +217,7 @@ public class ManagerModel : MonoSingleton<ManagerModel>
 
         }
 
-        //==============================测点布置==================================//
-         if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.CompareTag("cdhead") && Input.GetMouseButtonDown(0))
-        {
-            AssemblyCSharp.MyDebug.Log("============布置车头测点==============");
-            ManagerCeDian.instance.Modelchetou.GetComponent<cakeslice.Outline>().enabled = false;
-            ManagerCeDian.instance.ShowCeDianInput();
-
-            ManagerCeDian.cedianPos = 1;
-        }
-
-         if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.CompareTag("cdchewei") && Input.GetMouseButtonDown(0))
-        {
-            AssemblyCSharp.MyDebug.Log("============布置车尾测点==============");
-            ManagerCeDian.instance.Modelchewei.GetComponent<cakeslice.Outline>().enabled = false;
-            ManagerCeDian.instance.ShowCeDianInput();
-
-            ManagerCeDian.cedianPos = 2;
-        }
-
-         if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.CompareTag("cdcheshen") && Input.GetMouseButtonDown(0))
-        {
-            AssemblyCSharp.MyDebug.Log("============布置车身测点==============");
-            ManagerCeDian.instance.Modelcheshen.GetComponent<cakeslice.Outline>().enabled = false;
-            ManagerCeDian.instance.ShowCeDianInput();
-
-            ManagerCeDian.cedianPos = 3;
-        }
-
-         if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.CompareTag("cdscheshen") && Input.GetMouseButtonDown(0))
-        {
-            AssemblyCSharp.MyDebug.Log("============布置上车身测点==============");
-            ManagerCeDian.instance.Modelscheshen.GetComponent<cakeslice.Outline>().enabled = false;
-            ManagerCeDian.instance.ShowCeDianInput();
-
-            ManagerCeDian.cedianPos = 4;
-        }
-
-
-         if (Physics.Raycast(ray, out hitInfo) && hitInfo.collider.gameObject.CompareTag("cdxcheshen") && Input.GetMouseButtonDown(0))
-        {
-            AssemblyCSharp.MyDebug.Log("============布置下车身测点==============");
-            ManagerCeDian.instance.Modelxcheshen.GetComponent<cakeslice.Outline>().enabled = false;
-            ManagerCeDian.instance.ShowCeDianInput();
-
-            ManagerCeDian.cedianPos = 5;
-        }
+        
 
     }
 }

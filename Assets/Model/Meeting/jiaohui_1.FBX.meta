@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: 4e9ed8bf3414afc4fb170f45fc955b1d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bi hua_009
+    100002: Bi hua_1
+    100004: Bi hua_2
+    100006: Bi hua_3
+    100008: Bi hua_4
+    100010: Bi hua_5
+    100012: Bi hua_6
+    100014: Bi hua_7
+    100016: Bi hua_8
+    100018: FD_Bi hua_1
+    100020: FD_Bi hua_2
+    100022: FD_Bi hua_3
+    100024: FD_Bi hua_4
+    100026: FD_Bi hua_5
+    100028: FD_Bi hua_6
+    100030: FD_Bi hua_7
+    100032: FD_Bi hua_8
+    100034: FD_Bi hua_9
+    100036: FD_Door
+    100038: FD_Fan Floor
+    100040: FD_Fan Wall(Top)
+    100042: FD_Foot line_1
+    100044: FD_Foot line_2
+    100046: FD_Foot line_3
+    100048: FD_Foot line_4
+    100050: FD_Foot line_5
+    100052: FD_Glass
+    100054: FD_Glass001
+    100056: FD_Glass002
+    100058: FD_Glass003
+    100060: FD_Glass004
+    100062: FD_Light
+    100064: FD_Wall_1
+    100066: FD_Wall_2
+    100068: FD_Wall_3
+    100070: FD_Wall_4
+    100072: FD_Wen jian gui
+    100074: FD_Wen jian gui001
+    100076: FD_Window
+    100078: FD_Window001
+    100080: FD_Window002
+    100082: FD_Window003
+    100084: FD_Window004
+    100086: //RootNode
+    100088: Text001
+    400000: Bi hua_009
+    400002: Bi hua_1
+    400004: Bi hua_2
+    400006: Bi hua_3
+    400008: Bi hua_4
+    400010: Bi hua_5
+    400012: Bi hua_6
+    400014: Bi hua_7
+    400016: Bi hua_8
+    400018: FD_Bi hua_1
+    400020: FD_Bi hua_2
+    400022: FD_Bi hua_3
+    400024: FD_Bi hua_4
+    400026: FD_Bi hua_5
+    400028: FD_Bi hua_6
+    400030: FD_Bi hua_7
+    400032: FD_Bi hua_8
+    400034: FD_Bi hua_9
+    400036: FD_Door
+    400038: FD_Fan Floor
+    400040: FD_Fan Wall(Top)
+    400042: FD_Foot line_1
+    400044: FD_Foot line_2
+    400046: FD_Foot line_3
+    400048: FD_Foot line_4
+    400050: FD_Foot line_5
+    400052: FD_Glass
+    400054: FD_Glass001
+    400056: FD_Glass002
+    400058: FD_Glass003
+    400060: FD_Glass004
+    400062: FD_Light
+    400064: FD_Wall_1
+    400066: FD_Wall_2
+    400068: FD_Wall_3
+    400070: FD_Wall_4
+    400072: FD_Wen jian gui
+    400074: FD_Wen jian gui001
+    400076: FD_Window
+    400078: FD_Window001
+    400080: FD_Window002
+    400082: FD_Window003
+    400084: FD_Window004
+    400086: //RootNode
+    400088: Text001
+    2100000: Wall
+    2100002: wen jian gui_4
+    2100004: wen jian gui_5
+    2100006: wen jian gui_6
+    2100008: wen jian gui_1
+    2100010: wen jian gui_3
+    2100012: wen jina gui_2
+    2100014: Floor_1
+    2100016: Light
+    2100018: Window frame
+    2100020: Glass
+    2100022: 3d66.com_733149_04
+    2100024: 765828577_02
+    2100026: 765828577_01
+    2100028: Bi hua_2
+    2100030: 'Material #339638'
+    2100032: Bi hua_3
+    2100034: Bi hua_4
+    2100036: Bi hua_1
+    2100038: Bi hua_5
+    2100040: Bi hua_6
+    2100042: Bi hua_8
+    2100044: Bi hua_7
+    2100046: 03 - Default
+    2100048: 'Material #2141368422'
+    2300000: Bi hua_009
+    2300002: Bi hua_1
+    2300004: Bi hua_2
+    2300006: Bi hua_3
+    2300008: Bi hua_4
+    2300010: Bi hua_5
+    2300012: Bi hua_6
+    2300014: Bi hua_7
+    2300016: Bi hua_8
+    2300018: FD_Bi hua_1
+    2300020: FD_Bi hua_2
+    2300022: FD_Bi hua_3
+    2300024: FD_Bi hua_4
+    2300026: FD_Bi hua_5
+    2300028: FD_Bi hua_6
+    2300030: FD_Bi hua_7
+    2300032: FD_Bi hua_8
+    2300034: FD_Bi hua_9
+    2300036: FD_Door
+    2300038: FD_Fan Floor
+    2300040: FD_Fan Wall(Top)
+    2300042: FD_Foot line_1
+    2300044: FD_Foot line_2
+    2300046: FD_Foot line_3
+    2300048: FD_Foot line_4
+    2300050: FD_Foot line_5
+    2300052: FD_Glass
+    2300054: FD_Glass001
+    2300056: FD_Glass002
+    2300058: FD_Glass003
+    2300060: FD_Glass004
+    2300062: FD_Light
+    2300064: FD_Wall_1
+    2300066: FD_Wall_2
+    2300068: FD_Wall_3
+    2300070: FD_Wall_4
+    2300072: FD_Wen jian gui
+    2300074: FD_Wen jian gui001
+    2300076: FD_Window
+    2300078: FD_Window001
+    2300080: FD_Window002
+    2300082: FD_Window003
+    2300084: FD_Window004
+    2300086: Text001
+    3300000: Bi hua_009
+    3300002: Bi hua_1
+    3300004: Bi hua_2
+    3300006: Bi hua_3
+    3300008: Bi hua_4
+    3300010: Bi hua_5
+    3300012: Bi hua_6
+    3300014: Bi hua_7
+    3300016: Bi hua_8
+    3300018: FD_Bi hua_1
+    3300020: FD_Bi hua_2
+    3300022: FD_Bi hua_3
+    3300024: FD_Bi hua_4
+    3300026: FD_Bi hua_5
+    3300028: FD_Bi hua_6
+    3300030: FD_Bi hua_7
+    3300032: FD_Bi hua_8
+    3300034: FD_Bi hua_9
+    3300036: FD_Door
+    3300038: FD_Fan Floor
+    3300040: FD_Fan Wall(Top)
+    3300042: FD_Foot line_1
+    3300044: FD_Foot line_2
+    3300046: FD_Foot line_3
+    3300048: FD_Foot line_4
+    3300050: FD_Foot line_5
+    3300052: FD_Glass
+    3300054: FD_Glass001
+    3300056: FD_Glass002
+    3300058: FD_Glass003
+    3300060: FD_Glass004
+    3300062: FD_Light
+    3300064: FD_Wall_1
+    3300066: FD_Wall_2
+    3300068: FD_Wall_3
+    3300070: FD_Wall_4
+    3300072: FD_Wen jian gui
+    3300074: FD_Wen jian gui001
+    3300076: FD_Window
+    3300078: FD_Window001
+    3300080: FD_Window002
+    3300082: FD_Window003
+    3300084: FD_Window004
+    3300086: Text001
+    4300000: FD_Fan Wall(Top)
+    4300002: FD_Wen jian gui
+    4300004: FD_Fan Floor
+    4300006: FD_Light
+    4300008: FD_Window
+    4300010: FD_Glass
+    4300012: FD_Foot line_1
+    4300014: FD_Window001
+    4300016: FD_Glass001
+    4300018: FD_Foot line_2
+    4300020: FD_Foot line_5
+    4300022: FD_Wall_4
+    4300024: FD_Wall_2
+    4300026: FD_Door
+    4300028: FD_Foot line_3
+    4300030: FD_Foot line_4
+    4300032: FD_Bi hua_2
+    4300034: Bi hua_2
+    4300036: FD_Bi hua_3
+    4300038: Bi hua_3
+    4300040: FD_Bi hua_4
+    4300042: Bi hua_4
+    4300044: FD_Bi hua_1
+    4300046: Bi hua_1
+    4300048: FD_Bi hua_5
+    4300050: Bi hua_5
+    4300052: FD_Bi hua_6
+    4300054: Bi hua_6
+    4300056: FD_Bi hua_8
+    4300058: Bi hua_8
+    4300060: FD_Bi hua_7
+    4300062: Bi hua_7
+    4300064: FD_Wen jian gui001
+    4300066: FD_Wall_3
+    4300068: FD_Window002
+    4300070: FD_Glass002
+    4300072: FD_Window003
+    4300074: FD_Glass003
+    4300076: FD_Window004
+    4300078: FD_Glass004
+    4300080: FD_Wall_1
+    4300082: Text001
+    4300084: FD_Bi hua_9
+    4300086: Bi hua_009
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -197,7 +197,7 @@ public class ManagerAni : MonoSingleton<ManagerAni>
         CinemachineController.instance.CVcamera[9].gameObject.SetActive(false);
         //..........跳转到布置测点
         ManagerGame.instance.goModelCedian.SetActive(true);
-        ManagerCeDian.instance.goPanelCedian.SetActive(true);
+        //MeetingControlGame.instance.goPannelCedian.SetActive(true);
     }
 
     /// <summary>

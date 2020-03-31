@@ -1,0 +1,1306 @@
+fileFormatVersion: 2
+guid: bd1fafc2cb97f1041b520a0e6747b0fa
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "Dong che_Gai\uFF08CRH2\uFF09"
+    100002: "Dong che_Gai\uFF08CRH2\uFF09001"
+    100004: Dongche_Lianjie
+    100006: Dongche_Lianjie006
+    100008: Dongche_Lianjie007
+    100010: Dongche_Lianjie008
+    100012: Dongche_Lianjie009
+    100014: Dongche_Lianjie010
+    100016: Dongche_Lianjie011
+    100018: Dongche_Lianjie012
+    100020: Dongche_Lianjie013
+    100022: Dongche_Lianjie014
+    100024: FD_Bridge Prop002
+    100026: FD_Bridge Prop003
+    100028: FD_Bridge Prop_1
+    100030: FD_Bridge Prop_2
+    100032: FD_Bridge Prop_3
+    100034: FD_Bridge_1
+    100036: FD_Bridge_10
+    100038: FD_Bridge_11
+    100040: FD_Bridge_2
+    100042: FD_Bridge_3
+    100044: FD_Bridge_4
+    100046: FD_Bridge_5
+    100048: FD_Bridge_6
+    100050: FD_Bridge_7
+    100052: FD_Bridge_8
+    100054: FD_Bridge_9
+    100056: FD_Button Green(dian yuan zhi shi)
+    100058: FD_Button Red(xi tong bao jing)
+    100060: FD_Button(ji ting)
+    100062: FD_cao zuo tai_2
+    100064: FD_ce ya mo kuai
+    100066: FD_Ce ya mo kuai xian
+    100068: FD_Computer
+    100070: FD_Computer Screen
+    100072: FD_Computer_Keyboard
+    100074: FD_CRH003
+    100076: FD_CRH2
+    100078: FD_Fa ti_003
+    100080: FD_Fa ti_004
+    100082: FD_Fa ti_line(CRH2)
+    100084: FD_Hose001
+    100086: FD_Key
+    100088: FD_Pulley
+    100090: FD_Pulley001
+    100092: FD_Pulley002
+    100094: FD_Pulley003
+    100096: FD_sao miao fa
+    100098: FD_Screen(cao zuo tai_2)
+    100100: FD_Switch_1
+    100102: FD_Switch_2
+    100104: FD_Table
+    100106: FD_Wang xian
+    100108: //RootNode
+    100110: Lianjie_Screw
+    100112: Lianjie_Screw001
+    100114: Lianjie_Screw002
+    100116: Lianjie_Screw003
+    100118: Lianjie_Screw004
+    100120: Lianjie_Screw005
+    100122: Lianjie_Screw006
+    100124: Lianjie_Screw007
+    100126: Lianjie_Screw008
+    100128: Lianjie_Screw009
+    100130: Pulley_Crawler
+    100132: Pulley_Crawler001
+    100134: Pulley_Crawler002
+    100136: Pulley_Crawler003
+    400000: "Dong che_Gai\uFF08CRH2\uFF09"
+    400002: "Dong che_Gai\uFF08CRH2\uFF09001"
+    400004: Dongche_Lianjie
+    400006: Dongche_Lianjie006
+    400008: Dongche_Lianjie007
+    400010: Dongche_Lianjie008
+    400012: Dongche_Lianjie009
+    400014: Dongche_Lianjie010
+    400016: Dongche_Lianjie011
+    400018: Dongche_Lianjie012
+    400020: Dongche_Lianjie013
+    400022: Dongche_Lianjie014
+    400024: FD_Bridge Prop002
+    400026: FD_Bridge Prop003
+    400028: FD_Bridge Prop_1
+    400030: FD_Bridge Prop_2
+    400032: FD_Bridge Prop_3
+    400034: FD_Bridge_1
+    400036: FD_Bridge_10
+    400038: FD_Bridge_11
+    400040: FD_Bridge_2
+    400042: FD_Bridge_3
+    400044: FD_Bridge_4
+    400046: FD_Bridge_5
+    400048: FD_Bridge_6
+    400050: FD_Bridge_7
+    400052: FD_Bridge_8
+    400054: FD_Bridge_9
+    400056: FD_Button Green(dian yuan zhi shi)
+    400058: FD_Button Red(xi tong bao jing)
+    400060: FD_Button(ji ting)
+    400062: FD_cao zuo tai_2
+    400064: FD_ce ya mo kuai
+    400066: FD_Ce ya mo kuai xian
+    400068: FD_Computer
+    400070: FD_Computer Screen
+    400072: FD_Computer_Keyboard
+    400074: FD_CRH003
+    400076: FD_CRH2
+    400078: FD_Fa ti_003
+    400080: FD_Fa ti_004
+    400082: FD_Fa ti_line(CRH2)
+    400084: FD_Hose001
+    400086: FD_Key
+    400088: FD_Pulley
+    400090: FD_Pulley001
+    400092: FD_Pulley002
+    400094: FD_Pulley003
+    400096: FD_sao miao fa
+    400098: FD_Screen(cao zuo tai_2)
+    400100: FD_Switch_1
+    400102: FD_Switch_2
+    400104: FD_Table
+    400106: FD_Wang xian
+    400108: //RootNode
+    400110: Lianjie_Screw
+    400112: Lianjie_Screw001
+    400114: Lianjie_Screw002
+    400116: Lianjie_Screw003
+    400118: Lianjie_Screw004
+    400120: Lianjie_Screw005
+    400122: Lianjie_Screw006
+    400124: Lianjie_Screw007
+    400126: Lianjie_Screw008
+    400128: Lianjie_Screw009
+    400130: Pulley_Crawler
+    400132: Pulley_Crawler001
+    400134: Pulley_Crawler002
+    400136: Pulley_Crawler003
+    2100000: kong zhi tai
+    2100002: Button_Silver
+    2100004: Words_Black_1
+    2100006: Words_White
+    2100008: 12 - Default
+    2100010: 11 - Default
+    2100012: Button_Black
+    2100014: 'Material #66'
+    2100016: 'Material #62'
+    2100018: 'Material #58'
+    2100020: 'Material #57'
+    2100022: 'Material #56'
+    2100024: 'Material #53'
+    2100026: Button_Green
+    2100028: Button_Red
+    2100030: Screen
+    2100032: Button_White
+    2100034: 01 - Default
+    2100036: 'Material #21'
+    2100038: 'Material #268'
+    2100040: PlasticGlade01
+    2100042: ChromsFORled
+    2100044: LedIlumin
+    2100046: MetelLews01
+    2100048: Mat3d66-493846-1-504
+    2100050: Mat3d66-493846-92-182
+    2100052: Mat3d66-493846-74-923
+    2100054: Mat3d66-493846-13-410
+    2100056: Mat3d66-493846-6-810
+    2100058: Mat3d66-493846-4-136
+    2100060: Mat3d66-493846-60-886
+    2100062: Mat3d66-493846-81-54
+    2100064: Mat3d66-493846-71-909
+    2100066: Mat3d66-493846-68-454
+    2100068: Mat3d66-493846-59-78
+    2100070: Mat3d66-493846-55-696
+    2100072: Mat3d66-493846-61-932
+    2100074: Mat3d66-493846-66-218
+    2100076: Mat3d66-493846-67-251
+    2100078: Mat3d66-493846-77-587
+    2100080: Mat3d66-493846-76-893
+    2100082: Mat3d66-493846-51-780
+    2100084: Mat3d66-493846-56-90
+    2100086: Mat3d66-493846-57-125
+    2100088: Mat3d66-493846-50-721
+    2100090: Mat3d66-493846-49-672
+    2100092: Mat3d66-493846-48-508
+    2100094: Mat3d66-493846-47-451
+    2100096: Mat3d66-493846-46-271
+    2100098: Mat3d66-493846-45-762
+    2100100: Mat3d66-493846-44-325
+    2100102: Mat3d66-493846-43-13
+    2100104: Mat3d66-493846-42-793
+    2100106: Mat3d66-493846-41-336
+    2100108: Mat3d66-493846-96-135
+    2100110: Mat3d66-493846-54-427
+    2100112: Mat3d66-493846-53-465
+    2100114: Mat3d66-493846-97-457
+    2100116: Mat3d66-493846-88-840
+    2100118: Mat3d66-493846-75-823
+    2100120: Mat3d66-493846-33-191
+    2100122: Mat3d66-493846-26-427
+    2100124: Mat3d66-493846-9-69
+    2100126: Mat3d66-493846-65-373
+    2100128: Mat3d66-493846-83-866
+    2100130: Mat3d66-493846-31-48
+    2100132: Mat3d66-493846-36-832
+    2100134: Mat3d66-493846-86-803
+    2100136: Mat3d66-493846-72-741
+    2100138: Mat3d66-493846-84-150
+    2100140: Mat3d66-493846-29-175
+    2100142: Mat3d66-493846-34-607
+    2100144: Mat3d66-493846-28-189
+    2100146: Mat3d66-493846-32-423
+    2100148: Mat3d66-493846-35-111
+    2100150: Mat3d66-493846-30-429
+    2100152: Mat3d66-493846-27-472
+    2100154: Mat3d66-493846-25-543
+    2100156: Mat3d66-493846-12-901
+    2100158: Mat3d66-493846-63-961
+    2100160: Mat3d66-493846-70-846
+    2100162: Mat3d66-493846-52-308
+    2100164: Mat3d66-493846-82-981
+    2100166: Mat3d66-493846-5-403
+    2100168: Mat3d66-493846-37-608
+    2100170: Mat3d66-493846-40-852
+    2100172: Mat3d66-493846-7-776
+    2100174: Mat3d66-493846-39-512
+    2100176: Mat3d66-493846-95-373
+    2100178: Mat3d66-493846-11-264
+    2100180: Mat3d66-493846-93-644
+    2100182: Mat3d66-493846-3-451
+    2100184: Mat3d66-493846-20-773
+    2100186: Mat3d66-493846-38-442
+    2100188: Mat3d66-493846-62-280
+    2100190: Mat3d66-493846-64-377
+    2100192: Mat3d66-493846-8-470
+    2100194: Mat3d66-493846-87-702
+    2100196: Mat3d66-493846-85-679
+    2100198: Mat3d66-493846-80-31
+    2100200: Mat3d66-493846-22-153
+    2100202: Mat3d66-493846-21-428
+    2100204: Mat3d66-493846-2-971
+    2100206: Mat3d66-493846-19-805
+    2100208: Mat3d66-493846-94-853
+    2100210: Mat3d66-493846-15-432
+    2100212: Mat3d66-493846-16-408
+    2100214: Mat3d66-493846-14-932
+    2100216: Mat3d66-493846-23-932
+    2100218: Mat3d66-493846-58-100
+    2100220: Mat3d66-493846-79-80
+    2100222: Mat3d66-493846-10-9
+    2100224: Mat3d66-493846-78-957
+    2100226: Mat3d66-493846-89-627
+    2100228: Mat3d66-493846-100-284
+    2100230: Mat3d66-493846-17-275
+    2100232: Mat3d66-493846-99-748
+    2100234: Mat3d66-493846-98-540
+    2100236: Mat3d66-493846-24-466
+    2100238: Mat3d66-493846-18-262
+    2100240: Mat3d66-493846-69-223
+    2100242: Mat3d66-493846-73-258
+    2100244: Mat3d66-493846-90-799
+    2100246: Mat3d66-493846-91-246
+    2100248: Table_1
+    2100250: Table_2
+    2100252: Table_3
+    2100254: Table_4
+    2100256: FD_sao miao fa
+    2100258: Sao miao fa_Zhu ti
+    2100260: Word_Black_2
+    2100262: Sao miao fa_White
+    2100264: Sao miao fa_Black
+    2100266: Sao miao fa_Gold
+    2100268: Sao miao fa_Screw
+    2100270: 1gg
+    2100272: Standard_19t
+    2100274: ck
+    2100276: 'vray Material #352399479'
+    2100278: vray xzzz
+    2100280: vray VAC-PUEN
+    2100282: vray pp
+    2100284: vray ddd
+    2100286: vray heixiav
+    2100288: key_2
+    2100290: key_1
+    2100292: Fa ti_lv
+    2100294: 13 - Default
+    2100296: Fa ti_Gold1
+    2100298: Fa ti_Gold2
+    2100300: 05 - Default
+    2100302: FD_xing dong dai_
+    2100304: 16 - Default
+    2100306: FD_Line
+    2100308: FD_Wang xian_1
+    2100310: FD_Wang xian_2
+    2100312: FD_Wang xian_3
+    2100314: 3d66.com_858400_01
+    2100316: FD_Wang xian_4
+    2100318: No Name
+    2100320: Bridge pier
+    2100322: Bridge  handrail
+    2100324: 07 - Default
+    2300000: "Dong che_Gai\uFF08CRH2\uFF09"
+    2300002: "Dong che_Gai\uFF08CRH2\uFF09001"
+    2300004: Dongche_Lianjie
+    2300006: Dongche_Lianjie006
+    2300008: Dongche_Lianjie007
+    2300010: Dongche_Lianjie008
+    2300012: Dongche_Lianjie009
+    2300014: Dongche_Lianjie010
+    2300016: Dongche_Lianjie011
+    2300018: Dongche_Lianjie012
+    2300020: Dongche_Lianjie013
+    2300022: Dongche_Lianjie014
+    2300024: FD_Bridge Prop002
+    2300026: FD_Bridge Prop003
+    2300028: FD_Bridge Prop_1
+    2300030: FD_Bridge Prop_2
+    2300032: FD_Bridge Prop_3
+    2300034: FD_Bridge_1
+    2300036: FD_Bridge_10
+    2300038: FD_Bridge_11
+    2300040: FD_Bridge_2
+    2300042: FD_Bridge_3
+    2300044: FD_Bridge_4
+    2300046: FD_Bridge_5
+    2300048: FD_Bridge_6
+    2300050: FD_Bridge_7
+    2300052: FD_Bridge_8
+    2300054: FD_Bridge_9
+    2300056: FD_Button Green(dian yuan zhi shi)
+    2300058: FD_Button Red(xi tong bao jing)
+    2300060: FD_Button(ji ting)
+    2300062: FD_cao zuo tai_2
+    2300064: FD_ce ya mo kuai
+    2300066: FD_Ce ya mo kuai xian
+    2300068: FD_Computer
+    2300070: FD_Computer Screen
+    2300072: FD_Computer_Keyboard
+    2300074: FD_CRH003
+    2300076: FD_CRH2
+    2300078: FD_Fa ti_003
+    2300080: FD_Fa ti_004
+    2300082: FD_Fa ti_line(CRH2)
+    2300084: FD_Hose001
+    2300086: FD_Key
+    2300088: FD_Pulley
+    2300090: FD_Pulley001
+    2300092: FD_Pulley002
+    2300094: FD_Pulley003
+    2300096: FD_sao miao fa
+    2300098: FD_Screen(cao zuo tai_2)
+    2300100: FD_Switch_1
+    2300102: FD_Switch_2
+    2300104: FD_Table
+    2300106: FD_Wang xian
+    2300108: Lianjie_Screw
+    2300110: Lianjie_Screw001
+    2300112: Lianjie_Screw002
+    2300114: Lianjie_Screw003
+    2300116: Lianjie_Screw004
+    2300118: Lianjie_Screw005
+    2300120: Lianjie_Screw006
+    2300122: Lianjie_Screw007
+    2300124: Lianjie_Screw008
+    2300126: Lianjie_Screw009
+    2300128: Pulley_Crawler
+    2300130: Pulley_Crawler001
+    2300132: Pulley_Crawler002
+    2300134: Pulley_Crawler003
+    3300000: "Dong che_Gai\uFF08CRH2\uFF09"
+    3300002: "Dong che_Gai\uFF08CRH2\uFF09001"
+    3300004: Dongche_Lianjie
+    3300006: Dongche_Lianjie006
+    3300008: Dongche_Lianjie007
+    3300010: Dongche_Lianjie008
+    3300012: Dongche_Lianjie009
+    3300014: Dongche_Lianjie010
+    3300016: Dongche_Lianjie011
+    3300018: Dongche_Lianjie012
+    3300020: Dongche_Lianjie013
+    3300022: Dongche_Lianjie014
+    3300024: FD_Bridge Prop002
+    3300026: FD_Bridge Prop003
+    3300028: FD_Bridge Prop_1
+    3300030: FD_Bridge Prop_2
+    3300032: FD_Bridge Prop_3
+    3300034: FD_Bridge_1
+    3300036: FD_Bridge_10
+    3300038: FD_Bridge_11
+    3300040: FD_Bridge_2
+    3300042: FD_Bridge_3
+    3300044: FD_Bridge_4
+    3300046: FD_Bridge_5
+    3300048: FD_Bridge_6
+    3300050: FD_Bridge_7
+    3300052: FD_Bridge_8
+    3300054: FD_Bridge_9
+    3300056: FD_Button Green(dian yuan zhi shi)
+    3300058: FD_Button Red(xi tong bao jing)
+    3300060: FD_Button(ji ting)
+    3300062: FD_cao zuo tai_2
+    3300064: FD_ce ya mo kuai
+    3300066: FD_Ce ya mo kuai xian
+    3300068: FD_Computer
+    3300070: FD_Computer Screen
+    3300072: FD_Computer_Keyboard
+    3300074: FD_CRH003
+    3300076: FD_CRH2
+    3300078: FD_Fa ti_003
+    3300080: FD_Fa ti_004
+    3300082: FD_Fa ti_line(CRH2)
+    3300084: FD_Hose001
+    3300086: FD_Key
+    3300088: FD_Pulley
+    3300090: FD_Pulley001
+    3300092: FD_Pulley002
+    3300094: FD_Pulley003
+    3300096: FD_sao miao fa
+    3300098: FD_Screen(cao zuo tai_2)
+    3300100: FD_Switch_1
+    3300102: FD_Switch_2
+    3300104: FD_Table
+    3300106: FD_Wang xian
+    3300108: Lianjie_Screw
+    3300110: Lianjie_Screw001
+    3300112: Lianjie_Screw002
+    3300114: Lianjie_Screw003
+    3300116: Lianjie_Screw004
+    3300118: Lianjie_Screw005
+    3300120: Lianjie_Screw006
+    3300122: Lianjie_Screw007
+    3300124: Lianjie_Screw008
+    3300126: Lianjie_Screw009
+    3300128: Pulley_Crawler
+    3300130: Pulley_Crawler001
+    3300132: Pulley_Crawler002
+    3300134: Pulley_Crawler003
+    4300000: FD_cao zuo tai_2
+    4300002: FD_Button Green(dian yuan zhi shi)
+    4300004: FD_Button Red(xi tong bao jing)
+    4300006: FD_Screen(cao zuo tai_2)
+    4300008: FD_Button(ji ting)
+    4300010: FD_Computer
+    4300012: FD_Computer Screen
+    4300014: FD_Computer_Keyboard
+    4300016: FD_Table
+    4300018: FD_sao miao fa
+    4300020: FD_Switch_1
+    4300022: FD_Switch_2
+    4300024: FD_CRH2
+    4300026: FD_Key
+    4300028: FD_Fa ti_003
+    4300030: FD_Pulley
+    4300032: Pulley_Crawler
+    4300034: "Dong che_Gai\uFF08CRH2\uFF09"
+    4300036: Dongche_Lianjie
+    4300038: Lianjie_Screw
+    4300040: Dongche_Lianjie006
+    4300042: Lianjie_Screw001
+    4300044: Dongche_Lianjie007
+    4300046: Lianjie_Screw002
+    4300048: Dongche_Lianjie008
+    4300050: Lianjie_Screw003
+    4300052: Dongche_Lianjie009
+    4300054: Lianjie_Screw004
+    4300056: FD_Fa ti_004
+    4300058: FD_Hose001
+    4300060: FD_Fa ti_line(CRH2)
+    4300062: FD_Wang xian
+    4300064: FD_Ce ya mo kuai xian
+    4300066: FD_Pulley001
+    4300068: Pulley_Crawler001
+    4300070: FD_ce ya mo kuai
+    4300072: Dongche_Lianjie010
+    4300074: Lianjie_Screw007
+    4300076: Dongche_Lianjie011
+    4300078: Lianjie_Screw008
+    4300080: Dongche_Lianjie012
+    4300082: Lianjie_Screw005
+    4300084: Dongche_Lianjie013
+    4300086: Lianjie_Screw009
+    4300088: Dongche_Lianjie014
+    4300090: Lianjie_Screw006
+    4300092: FD_Pulley002
+    4300094: Pulley_Crawler002
+    4300096: FD_Pulley003
+    4300098: Pulley_Crawler003
+    4300100: FD_Bridge Prop002
+    4300102: FD_CRH003
+    4300104: "Dong che_Gai\uFF08CRH2\uFF09001"
+    4300106: FD_Bridge_2
+    4300108: FD_Bridge_3
+    4300110: FD_Bridge_4
+    4300112: FD_Bridge Prop003
+    4300114: FD_Bridge Prop_1
+    4300116: FD_Bridge Prop_2
+    4300118: FD_Bridge Prop_3
+    4300120: FD_Bridge_5
+    4300122: FD_Bridge_1
+    4300124: FD_Bridge_7
+    4300126: FD_Bridge_8
+    4300128: FD_Bridge_9
+    4300130: FD_Bridge_10
+    4300132: FD_Bridge_6
+    4300134: FD_Bridge_11
+    7400000: Take 001
+    7400002: insFoot1
+    7400004: insFoot2
+    7400006: insFoot3
+    7400008: insMPidai
+    7400010: insMBridge1
+    7400012: insMbridge2
+    7400014: insMlefthuaikuai
+    7400016: insLeftCrh2
+    7400018: insMRighthuaikuai
+    7400020: insRightCrh2
+    7400022: insMFati
+    7400024: insMceyamokuai
+    7400026: ConMlineCeya
+    7400028: conMControlKey
+    7400030: MVdong1
+    7400032: MVdong2
+    7400034: MVdong3
+    7400036: MVdong4
+    7400038: MVdong5
+    7400040: Take 001 (6)
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: Event FinishInsLeftCrh2 has a time (8.333333) outside
+      the clip's valid range (0.000000..8.333332). It will never be fired
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2766
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insFoot1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishInsFoot1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insFoot2
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishInsFoot2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insFoot3
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishInsFoot3
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insMPidai
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishInspidai
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insMBridge1
+      takeName: Take 001
+      firstFrame: 390
+      lastFrame: 550
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishBridge1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insMbridge2
+      takeName: Take 001
+      firstFrame: 550
+      lastFrame: 710
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishBridge2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insMlefthuaikuai
+      takeName: Take 001
+      firstFrame: 900
+      lastFrame: 1080
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishLeftHuaikuai
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insLeftCrh2
+      takeName: Take 001
+      firstFrame: 1080
+      lastFrame: 1330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishInsLeftCrh2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insMRighthuaikuai
+      takeName: Take 001
+      firstFrame: 1330
+      lastFrame: 1530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishRightHuaikuai
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insRightCrh2
+      takeName: Take 001
+      firstFrame: 1530
+      lastFrame: 1790
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishRightCrh2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insMFati
+      takeName: Take 001
+      firstFrame: 1300
+      lastFrame: 1330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishInsFati
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: insMceyamokuai
+      takeName: Take 001
+      firstFrame: 1330
+      lastFrame: 1360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishCeyamokuai
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ConMlineCeya
+      takeName: Take 001
+      firstFrame: 1765
+      lastFrame: 1835
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishLineCeYa
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: conMControlKey
+      takeName: Take 001
+      firstFrame: 1835
+      lastFrame: 1905
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: FinishConControlKei
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MVdong1
+      takeName: Take 001
+      firstFrame: 1975.0001
+      lastFrame: 2065
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MVdong2
+      takeName: Take 001
+      firstFrame: 2065
+      lastFrame: 2195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MVdong3
+      takeName: Take 001
+      firstFrame: 2205
+      lastFrame: 2355
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MVdong4
+      takeName: Take 001
+      firstFrame: 2365
+      lastFrame: 2545
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MVdong5
+      takeName: Take 001
+      firstFrame: 2555
+      lastFrame: 2765
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001 (6)
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2766
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -33,8 +33,18 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
     public GameObject Modelcheshen;//车身
     public GameObject Modelscheshen;//上车身
     public GameObject Modelxcheshen;//下车身
+    public GameObject goPanelCedianInput;
 
-    public GameObject goPanelCedian;
+    public List<GameObject> objCedian = new List<GameObject>();
+
+    /// <summary>
+    /// 0
+    /// 1
+    /// 2
+    /// 3
+    /// 4
+    /// </summary>
+    public List<GameObject> goCamCedeian = new List<GameObject>();
     
     /// <summary>
     /// 1车头
@@ -58,7 +68,7 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
     public void ShowCeDianInput()
 
     {
-        ManagerUI.instance.panelCeDianInput.SetActive(true);
+        goPanelCedianInput.SetActive(true);
     }
 
     /// <summary>
@@ -67,7 +77,7 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
     public void HideCeDianInput()
 
     {
-        ManagerUI.instance.panelCeDianInput.SetActive(false);
+        goPanelCedianInput.SetActive(false);
     }
 
     public void MakeSure()
@@ -76,13 +86,13 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
         if (cedianPos == 1 && Convert.ToInt32(txtCedian.text) < 50)
         {
             MyDebug.Log("************车头测点数不能少于50个**************");
-            ManagerGame.instance.txtTip.text = "车头测点数不能少于50个！";
+            MeetingControlGame.instance.txtTip.text = "车头测点数不能少于50个！";
         }
         else
         {
             if (cedianPos == 1 && Convert.ToInt32(txtCedian.text) >= 50)
             {
-                ManagerGame.instance.txtTip.text = "车头测点布置成功!布置车尾测点";
+                MeetingControlGame.instance.txtTip.text = "车头测点布置成功!布置车尾测点";
                 HideCeDianInput();
                 CDchetou.SetActive(true);
             }
@@ -94,13 +104,13 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
         if (cedianPos == 2 && Convert.ToInt32(txtCedian.text) < 50)
         {
             MyDebug.Log("************车尾测点数不能少于50个**************");
-            ManagerGame.instance.txtTip.text = "车尾测点数不能少于50个！";
+            MeetingControlGame.instance.txtTip.text = "车尾测点数不能少于50个！";
         }
         else
         {
             if (cedianPos == 2 && Convert.ToInt32(txtCedian.text) >= 50)
             {
-                ManagerGame.instance.txtTip.text = "车尾测点布置成功!布置车身测点";
+                MeetingControlGame.instance.txtTip.text = "车尾测点布置成功!布置车身测点";
                 HideCeDianInput();
                 CDchewei.SetActive(true);
             }
@@ -112,13 +122,13 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
         if (cedianPos == 3 && Convert.ToInt32(txtCedian.text) < 6)
         {
             MyDebug.Log("************车身测点数不能少于6个**************");
-            ManagerGame.instance.txtTip.text = "车身测点数不能少于6个！";
+            MeetingControlGame.instance.txtTip.text = "车身测点数不能少于6个！";
         }
         else
         {
             if (cedianPos == 3 && Convert.ToInt32(txtCedian.text) >= 6)
             {
-                ManagerGame.instance.txtTip.text = "车身测点布置成功!布置上车身测点";
+                MeetingControlGame.instance.txtTip.text = "车身测点布置成功!布置上车身测点";
                 HideCeDianInput();
                 CDcheshen.SetActive(true);
             }
@@ -129,13 +139,13 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
         if (cedianPos == 4 && Convert.ToInt32(txtCedian.text) < 6)
         {
             MyDebug.Log("************上车身测点数不能少于6个**************");
-            ManagerGame.instance.txtTip.text = "上车身测点数不能少于6个！";
+            MeetingControlGame.instance.txtTip.text = "上车身测点数不能少于6个！";
         }
         else
         {
             if (cedianPos == 4 && Convert.ToInt32(txtCedian.text) >= 6)
             {
-                ManagerGame.instance.txtTip.text = "上车身测点布置成功!不知下车身测点";
+                MeetingControlGame.instance.txtTip.text = "上车身测点布置成功!不知下车身测点";
                 HideCeDianInput();
                 CDscheshen.SetActive(true);
             }
@@ -147,17 +157,19 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
         if (cedianPos == 5 && Convert.ToInt32(txtCedian.text) < 6)
         {
             //MyDebug.Log("************上车身测点数不能少于6个**************");
-            ManagerGame.instance.txtTip.text = "下车身测点数不能少于6个！";
+            MeetingControlGame.instance.txtTip.text = "下车身测点数不能少于6个！";
         }
         else
         {
             if (cedianPos == 5 && Convert.ToInt32(txtCedian.text) >= 6)
             {
-                ManagerGame.instance.txtTip.text = "下车身测点布置成功!选择皮托管，连接阀体";
+                MeetingControlGame.instance.txtTip.text = "下车身测点布置成功!选择皮托管，连接阀体";
                 HideCeDianInput();
                 CDxcheshen.SetActive(true);
+                MeetingControlUI.instance.goPannelCedianPos.SetActive(false);
 
-                ManagerUI.instance.imgPiTuoGuan.gameObject.SetActive(true);
+                ///完成测点布置
+                MeetingControlUI.instance.goStepUI[1].GetComponent<Text>().color = Color.green;
             }
 
         }
@@ -169,11 +181,11 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
         {
             case "车头":
 
-                CinemachineController.instance.CVcamera[2].gameObject.SetActive(true);
-                CinemachineController.instance.CVcamera[3].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[5].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[6].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[4].gameObject.SetActive(false);
+                goCamCedeian[0].gameObject.SetActive(true);
+                goCamCedeian[1].gameObject.SetActive(false);
+                goCamCedeian[2].gameObject.SetActive(false);
+                goCamCedeian[3].gameObject.SetActive(false);
+                goCamCedeian[4].gameObject.SetActive(false);
 
                 if (!CDchetou.activeSelf)
                 {
@@ -187,11 +199,11 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
 
             case "车尾":
 
-                CinemachineController.instance.CVcamera[2].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[3].gameObject.SetActive(true);
-                CinemachineController.instance.CVcamera[5].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[6].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[4].gameObject.SetActive(false);
+                goCamCedeian[0].gameObject.SetActive(false);
+                goCamCedeian[1].gameObject.SetActive(true);
+                goCamCedeian[2].gameObject.SetActive(false);
+                goCamCedeian[3].gameObject.SetActive(false);
+                goCamCedeian[4].gameObject.SetActive(false);
 
                 if (!CDchewei.activeSelf)
                 {
@@ -202,11 +214,11 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
                 break;
 
             case "车身":
-                CinemachineController.instance.CVcamera[2].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[3].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[5].gameObject.SetActive(true);
-                CinemachineController.instance.CVcamera[6].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[4].gameObject.SetActive(false);
+                goCamCedeian[0].gameObject.SetActive(false);
+                goCamCedeian[1].gameObject.SetActive(false);
+                goCamCedeian[2].gameObject.SetActive(true);
+                goCamCedeian[3].gameObject.SetActive(false);
+                goCamCedeian[4].gameObject.SetActive(false);
 
                 if (!CDcheshen.activeSelf)
                 {
@@ -216,11 +228,11 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
                 break;
 
             case "上车身":
-                CinemachineController.instance.CVcamera[2].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[3].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[5].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[4].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[6].gameObject.SetActive(true);
+                goCamCedeian[0].gameObject.SetActive(false);
+                goCamCedeian[1].gameObject.SetActive(false);
+                goCamCedeian[2].gameObject.SetActive(false);
+                goCamCedeian[3].gameObject.SetActive(true);
+                goCamCedeian[4].gameObject.SetActive(false);
 
                 if (!CDscheshen.activeSelf)
                 {
@@ -230,17 +242,18 @@ public class ManagerCeDian : MonoSingleton<ManagerCeDian>
                 break;
 
             case "下车身":
-                CinemachineController.instance.CVcamera[2].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[3].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[5].gameObject.SetActive(false);
-                CinemachineController.instance.CVcamera[4].gameObject.SetActive(true);
-                CinemachineController.instance.CVcamera[6].gameObject.SetActive(false);
+                goCamCedeian[0].gameObject.SetActive(false);
+                goCamCedeian[1].gameObject.SetActive(false);
+                goCamCedeian[2].gameObject.SetActive(false);
+                goCamCedeian[3].gameObject.SetActive(false);
+                goCamCedeian[4].gameObject.SetActive(true);
 
-                ManagerUI.instance.imgBriUIGameStep[2].GetComponent<Text>().color = Color.blue;
+                //ManagerUI.instance.imgBriUIGameStep[2].GetComponent<Text>().color = Color.blue;
 
                 if (!CDxcheshen.activeSelf)
                 {
                     Modelxcheshen.GetComponent<cakeslice.Outline>().enabled = true;
+                 
                 }
                 cedianPos = 5;
                 break;

@@ -53,8 +53,7 @@ public class ManagerUI : MonoSingleton<ManagerUI>
 
     private void Awake()
     {
-        imgTrainType.gameObject
-            .SetActive(true);
+        imgTrainType.gameObject.SetActive(true);
     }
 
     void Update()
@@ -212,7 +211,7 @@ public class ManagerUI : MonoSingleton<ManagerUI>
 
                     ///
                     panelCeDianInput.SetActive(false);
-                    ManagerCeDian.instance.goPanelCedian.SetActive(false);
+                    MeetingControlUI.instance.goPannelCedian.SetActive(false);//关闭测点
                     ManagerGame.instance.goModelCedian.SetActive(false);
                 }
                 if (!ManagerGame.instance.isCRH)
